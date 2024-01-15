@@ -1,0 +1,60 @@
+2023-06-22 09:05:18,665 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-06-22 09:05:18,672 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory C:\wildfly\wildfly-27.0.1.Final\standalone\deployments
+2023-06-22 09:05:20,491 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-4) 
+2023-06-22 09:05:21,398 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for wbappPersistenceUnit
+2023-06-22 09:05:23,669 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment webapp.war
+2023-06-22 09:05:25,190 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-6) HV000001: Hibernate Validator 8.0.0.Final
+2023-06-22 09:05:25,817 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-6) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-06-22 09:05:25,841 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-6) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-06-22 09:05:25,848 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-6) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=webapp.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=5CG039D8B0, jaeger.version=Java-1.6.0, ip=192.168.56.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-06-22 09:05:25,918 INFO  [org.jipijapa] (MSC service thread 1-3) JIPIORMV6020260: Second level cache enabled for webapp.war#wbappPersistenceUnit
+2023-06-22 09:05:26,199 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 5.1.0 (Final)
+2023-06-22 09:05:27,346 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 81) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-06-22 09:05:28,070 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0003: Starting Persistence Unit Service 'webapp.war#wbappPersistenceUnit'
+2023-06-22 09:05:28,123 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 81) HHH000204: Processing PersistenceUnitInfo [name: wbappPersistenceUnit]
+2023-06-22 09:05:28,283 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 81) HHH000412: Hibernate ORM core version 6.1.5.Final
+2023-06-22 09:05:28,646 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 81) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-06-22 09:05:29,283 INFO  [SQL dialect] (ServerService Thread Pool -- 81) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-06-22 09:05:29,434 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 81) Envers integration enabled? : true
+2023-06-22 09:05:31,995 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 81) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2023-06-22 09:05:32,029 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-22 09:05:32,029 INFO  [stdout] (ServerService Thread Pool -- 81)     
+2023-06-22 09:05:32,030 INFO  [stdout] (ServerService Thread Pool -- 81)     drop table if exists persona cascade 
+2023-06-22 09:05:32,033 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-22 09:05:32,034 INFO  [stdout] (ServerService Thread Pool -- 81)     
+2023-06-22 09:05:32,034 INFO  [stdout] (ServerService Thread Pool -- 81)     drop table if exists vehiculo cascade 
+2023-06-22 09:05:32,036 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-22 09:05:32,037 INFO  [stdout] (ServerService Thread Pool -- 81)     
+2023-06-22 09:05:32,037 INFO  [stdout] (ServerService Thread Pool -- 81)     drop sequence if exists persona_SEQ
+2023-06-22 09:05:32,038 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-22 09:05:32,038 INFO  [stdout] (ServerService Thread Pool -- 81)     
+2023-06-22 09:05:32,039 INFO  [stdout] (ServerService Thread Pool -- 81)     drop sequence if exists vehiculo_SEQ
+2023-06-22 09:05:32,050 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: create sequence persona_SEQ start with 1 increment by 50
+2023-06-22 09:05:32,055 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: create sequence vehiculo_SEQ start with 1 increment by 50
+2023-06-22 09:05:32,058 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-22 09:05:32,058 INFO  [stdout] (ServerService Thread Pool -- 81)     
+2023-06-22 09:05:32,058 INFO  [stdout] (ServerService Thread Pool -- 81)     create table persona (
+2023-06-22 09:05:32,058 INFO  [stdout] (ServerService Thread Pool -- 81)        personaId integer not null,
+2023-06-22 09:05:32,059 INFO  [stdout] (ServerService Thread Pool -- 81)         direccion varchar(255),
+2023-06-22 09:05:32,059 INFO  [stdout] (ServerService Thread Pool -- 81)         nombre varchar(255),
+2023-06-22 09:05:32,059 INFO  [stdout] (ServerService Thread Pool -- 81)         telefono varchar(255),
+2023-06-22 09:05:32,059 INFO  [stdout] (ServerService Thread Pool -- 81)         tipo varchar(255),
+2023-06-22 09:05:32,060 INFO  [stdout] (ServerService Thread Pool -- 81)         primary key (personaId)
+2023-06-22 09:05:32,060 INFO  [stdout] (ServerService Thread Pool -- 81)     )
+2023-06-22 09:05:32,072 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-22 09:05:32,073 INFO  [stdout] (ServerService Thread Pool -- 81)     
+2023-06-22 09:05:32,073 INFO  [stdout] (ServerService Thread Pool -- 81)     create table vehiculo (
+2023-06-22 09:05:32,073 INFO  [stdout] (ServerService Thread Pool -- 81)        vehiculoId integer not null,
+2023-06-22 09:05:32,074 INFO  [stdout] (ServerService Thread Pool -- 81)         marca varchar(255),
+2023-06-22 09:05:32,074 INFO  [stdout] (ServerService Thread Pool -- 81)         modelo varchar(255),
+2023-06-22 09:05:32,074 INFO  [stdout] (ServerService Thread Pool -- 81)         placa varchar(255),
+2023-06-22 09:05:32,074 INFO  [stdout] (ServerService Thread Pool -- 81)         tipo varchar(255),
+2023-06-22 09:05:32,074 INFO  [stdout] (ServerService Thread Pool -- 81)         primary key (vehiculoId)
+2023-06-22 09:05:32,075 INFO  [stdout] (ServerService Thread Pool -- 81)     )
+2023-06-22 09:05:33,461 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 85) Inicializando Mojarra 4.0.0.SP01 para el contexto '/webapp'
+2023-06-22 09:05:34,174 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 85) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2023-06-22 09:05:34,302 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 46) WFLYSRV0010: Deployed "webapp.war" (runtime-name : "webapp.war")
+2023-06-22 09:05:34,399 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-06-22 09:05:34,403 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) started in 65448ms - Started 418 of 649 services (361 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-06-22 09:05:34,410 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-06-22 09:05:34,411 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990

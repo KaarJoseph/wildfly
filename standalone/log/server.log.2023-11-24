@@ -1,0 +1,809 @@
+2023-11-24 08:04:51,547 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-11-24 08:04:58,597 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-11-24 08:04:58,620 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-11-24 08:04:58,851 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) starting
+2023-11-24 08:04:58,855 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\wildfly\wildfly-27.0.1.Final\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre
+	java.io.tmpdir = C:\Users\KAARJO~1\AppData\Local\Temp\
+	java.library.path = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Users/KaarJoseph/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin/server;C:/Users/KaarJoseph/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin;C:\app\KaarJoseph\product\21c\dbhomeXE\bin;C:\app\ORTEL\product\21c\dbhomeXE\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\KaarJoseph\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\6.0\bin;C:\Users\KaarJoseph\AppData\Local\Microsoft\WindowsApps;C:\Users\KaarJoseph\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KaarJoseph\AppData\Roaming\npm;C:\Users\KaarJoseph\Desktop;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.7+7
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Adoptium
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-17.0.7+7
+	java.version = 17.0.7
+	java.version.date = 2023-04-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Eclipse Adoptium
+	java.vm.version = 17.0.7+7
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\wildfly\wildfly-27.0.1.Final
+	jboss.host.name = 5cg039d8b0
+	jboss.modules.dir = C:\wildfly\wildfly-27.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = 5cg039d8b0
+	jboss.qualified.host.name = 5cg039d8b0
+	jboss.server.base.dir = C:\wildfly\wildfly-27.0.1.Final\standalone
+	jboss.server.config.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\log
+	jboss.server.name = 5cg039d8b0
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\logging.properties
+	module.path = C:\wildfly\wildfly-27.0.1.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\wildfly\wildfly-27.0.1.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 24+
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\wildfly\wildfly-27.0.1.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\wildfly\wildfly-27.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = EC
+	user.dir = C:\wildfly\wildfly-27.0.1.Final\bin
+	user.home = C:\Users\KaarJoseph
+	user.language = es
+	user.name = Kaar Joseph
+	user.script = 
+	user.timezone = America/Guayaquil
+	user.variant = 
+2023-11-24 08:04:58,860 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 24+ -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\wildfly\wildfly-27.0.1.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\wildfly\wildfly-27.0.1.Final -Dorg.jboss.logmanager.nocolor=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages 
+2023-11-24 08:05:05,230 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.0.0.Final
+2023-11-24 08:05:11,120 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 4) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-11-24 08:05:11,121 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 4) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-11-24 08:05:13,226 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 29) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-11-24 08:05:13,433 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found helloworld-mp.war in deployment directory. To trigger deployment create a file called helloworld-mp.war.dodeploy
+2023-11-24 08:05:13,444 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found proyecto.war in deployment directory. To trigger deployment create a file called proyecto.war.dodeploy
+2023-11-24 08:05:13,533 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-11-24 08:05:13,602 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.8.8.Final
+2023-11-24 08:05:13,623 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.8.8.Final
+2023-11-24 08:05:13,831 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-11-24 08:05:13,868 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "proyecto.war" (runtime-name: "proyecto.war")
+2023-11-24 08:05:13,868 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "helloworld-mp.war" (runtime-name: "helloworld-mp.war")
+2023-11-24 08:05:13,942 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2023-11-24 08:05:13,960 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-11-24 08:05:13,971 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-11-24 08:05:13,972 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-11-24 08:05:13,977 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-11-24 08:05:13,991 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-11-24 08:05:14,023 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-11-24 08:05:14,026 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-11-24 08:05:14,035 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2023-11-24 08:05:14,035 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-11-24 08:05:14,096 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2023-11-24 08:05:14,107 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-11-24 08:05:14,393 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2023-11-24 08:05:14,581 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-11-24 08:05:14,582 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2023-11-24 08:05:14,587 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-11-24 08:05:14,589 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-11-24 08:05:14,594 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = postgresql-driver
+2023-11-24 08:05:14,631 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY00023: KeyStore file 'C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-11-24 08:05:14,708 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.3.0.Final starting
+2023-11-24 08:05:14,715 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-2) WFLYELY01084: KeyStore C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-11-24 08:05:15,015 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path 'C:\wildfly\wildfly-27.0.1.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-11-24 08:05:15,777 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2023-11-24 08:05:15,784 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2023-11-24 08:05:15,784 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2023-11-24 08:05:15,850 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.26.Final
+2023-11-24 08:05:15,979 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2023-11-24 08:05:15,982 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) Queuing requests.
+2023-11-24 08:05:15,987 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2023-11-24 08:05:16,138 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-11-24 08:05:16,151 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-11-24 08:05:16,373 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-11-24 08:05:16,641 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/evaWebDS]
+2023-11-24 08:05:16,641 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/proyecto]
+2023-11-24 08:05:16,645 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-11-24 08:05:16,641 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ejPostgresDS]
+2023-11-24 08:05:22,692 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-11-24 08:05:22,701 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory C:\wildfly\wildfly-27.0.1.Final\standalone\deployments
+2023-11-24 08:05:24,449 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-4) 
+2023-11-24 08:05:25,070 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for proyectoPersistenceUnit
+2023-11-24 08:05:26,792 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for proyecto.war#proyectoPersistenceUnit
+2023-11-24 08:05:26,804 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment helloworld-mp.war
+2023-11-24 08:05:27,258 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment proyecto.war
+2023-11-24 08:05:28,231 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 81) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-11-24 08:05:28,622 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 8.0.0.Final
+2023-11-24 08:05:29,035 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'GestionClientes' in deployment unit 'deployment "proyecto.war"' are as follows:
+
+	java:global/proyecto/GestionClientes!ups.edu.ec.proyecto.Negocio.GestionClientes
+	java:app/proyecto/GestionClientes!ups.edu.ec.proyecto.Negocio.GestionClientes
+	java:module/GestionClientes!ups.edu.ec.proyecto.Negocio.GestionClientes
+	java:global/proyecto/GestionClientes
+	java:app/proyecto/GestionClientes
+	java:module/GestionClientes
+
+2023-11-24 08:05:29,035 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'GestionDetalles' in deployment unit 'deployment "proyecto.war"' are as follows:
+
+	java:global/proyecto/GestionDetalles!ups.edu.ec.proyecto.Negocio.GestionDetalles
+	java:app/proyecto/GestionDetalles!ups.edu.ec.proyecto.Negocio.GestionDetalles
+	java:module/GestionDetalles!ups.edu.ec.proyecto.Negocio.GestionDetalles
+	java:global/proyecto/GestionDetalles
+	java:app/proyecto/GestionDetalles
+	java:module/GestionDetalles
+
+2023-11-24 08:05:29,036 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'VehiculoDao' in deployment unit 'deployment "proyecto.war"' are as follows:
+
+	java:global/proyecto/VehiculoDao!ups.edu.ec.proyecto.Datos.VehiculoDao
+	java:app/proyecto/VehiculoDao!ups.edu.ec.proyecto.Datos.VehiculoDao
+	java:module/VehiculoDao!ups.edu.ec.proyecto.Datos.VehiculoDao
+	java:global/proyecto/VehiculoDao
+	java:app/proyecto/VehiculoDao
+	java:module/VehiculoDao
+
+2023-11-24 08:05:29,039 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'GestionVehiculos' in deployment unit 'deployment "proyecto.war"' are as follows:
+
+	java:global/proyecto/GestionVehiculos!ups.edu.ec.proyecto.Negocio.GestionVehiculos
+	java:app/proyecto/GestionVehiculos!ups.edu.ec.proyecto.Negocio.GestionVehiculos
+	java:module/GestionVehiculos!ups.edu.ec.proyecto.Negocio.GestionVehiculos
+	java:global/proyecto/GestionVehiculos
+	java:app/proyecto/GestionVehiculos
+	java:module/GestionVehiculos
+
+2023-11-24 08:05:29,041 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'DetalleDao' in deployment unit 'deployment "proyecto.war"' are as follows:
+
+	java:global/proyecto/DetalleDao!ups.edu.ec.proyecto.Datos.DetalleDao
+	java:app/proyecto/DetalleDao!ups.edu.ec.proyecto.Datos.DetalleDao
+	java:module/DetalleDao!ups.edu.ec.proyecto.Datos.DetalleDao
+	java:global/proyecto/DetalleDao
+	java:app/proyecto/DetalleDao
+	java:module/DetalleDao
+
+2023-11-24 08:05:29,041 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'PersonaDao' in deployment unit 'deployment "proyecto.war"' are as follows:
+
+	java:global/proyecto/PersonaDao!ups.edu.ec.proyecto.Datos.PersonaDao
+	java:app/proyecto/PersonaDao!ups.edu.ec.proyecto.Datos.PersonaDao
+	java:module/PersonaDao!ups.edu.ec.proyecto.Datos.PersonaDao
+	java:global/proyecto/PersonaDao
+	java:app/proyecto/PersonaDao
+	java:module/PersonaDao
+
+2023-11-24 08:05:29,041 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'GestionCabeceras' in deployment unit 'deployment "proyecto.war"' are as follows:
+
+	java:global/proyecto/GestionCabeceras!ups.edu.ec.proyecto.Negocio.GestionCabeceras
+	java:app/proyecto/GestionCabeceras!ups.edu.ec.proyecto.Negocio.GestionCabeceras
+	java:module/GestionCabeceras!ups.edu.ec.proyecto.Negocio.GestionCabeceras
+	java:global/proyecto/GestionCabeceras
+	java:app/proyecto/GestionCabeceras
+	java:module/GestionCabeceras
+
+2023-11-24 08:05:29,042 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'CabeceraDao' in deployment unit 'deployment "proyecto.war"' are as follows:
+
+	java:global/proyecto/CabeceraDao!ups.edu.ec.proyecto.Datos.CabeceraDao
+	java:app/proyecto/CabeceraDao!ups.edu.ec.proyecto.Datos.CabeceraDao
+	java:module/CabeceraDao!ups.edu.ec.proyecto.Datos.CabeceraDao
+	java:global/proyecto/CabeceraDao
+	java:app/proyecto/CabeceraDao
+	java:module/CabeceraDao
+
+2023-11-24 08:05:29,042 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'DatosDemo' in deployment unit 'deployment "proyecto.war"' are as follows:
+
+	java:global/proyecto/DatosDemo!ups.edu.ec.proyecto.Negocio.DatosDemo
+	java:app/proyecto/DatosDemo!ups.edu.ec.proyecto.Negocio.DatosDemo
+	java:module/DatosDemo!ups.edu.ec.proyecto.Negocio.DatosDemo
+	java:global/proyecto/DatosDemo
+	java:app/proyecto/DatosDemo
+	java:module/DatosDemo
+
+2023-11-24 08:05:29,042 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'GestionEspacios' in deployment unit 'deployment "proyecto.war"' are as follows:
+
+	java:global/proyecto/GestionEspacios!ups.edu.ec.proyecto.Negocio.GestionEspacios
+	java:app/proyecto/GestionEspacios!ups.edu.ec.proyecto.Negocio.GestionEspacios
+	java:module/GestionEspacios!ups.edu.ec.proyecto.Negocio.GestionEspacios
+	java:global/proyecto/GestionEspacios
+	java:app/proyecto/GestionEspacios
+	java:module/GestionEspacios
+
+2023-11-24 08:05:29,043 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'EspacioDao' in deployment unit 'deployment "proyecto.war"' are as follows:
+
+	java:global/proyecto/EspacioDao!ups.edu.ec.proyecto.Datos.EspacioDao
+	java:app/proyecto/EspacioDao!ups.edu.ec.proyecto.Datos.EspacioDao
+	java:module/EspacioDao!ups.edu.ec.proyecto.Datos.EspacioDao
+	java:global/proyecto/EspacioDao
+	java:app/proyecto/EspacioDao
+	java:module/EspacioDao
+
+2023-11-24 08:05:29,312 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'proyecto.war#proyectoPersistenceUnit'
+2023-11-24 08:05:29,363 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 81) HHH000204: Processing PersistenceUnitInfo [name: proyectoPersistenceUnit]
+2023-11-24 08:05:29,430 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-7) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-11-24 08:05:29,432 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-5) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-11-24 08:05:29,467 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-7) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-11-24 08:05:29,467 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-11-24 08:05:29,475 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-7) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=proyecto.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=5CG039D8B0, jaeger.version=Java-1.6.0, ip=127.0.0.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-11-24 08:05:29,475 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-5) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=helloworld-mp.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=5CG039D8B0, jaeger.version=Java-1.6.0, ip=127.0.0.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-11-24 08:05:29,620 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 81) HHH000412: Hibernate ORM core version 6.1.5.Final
+2023-11-24 08:05:29,629 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 5.1.0 (Final)
+2023-11-24 08:05:29,812 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV6020260: Second level cache enabled for proyecto.war#proyectoPersistenceUnit
+2023-11-24 08:05:30,357 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 81) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-11-24 08:05:30,707 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'proyecto.war#proyectoPersistenceUnit'
+2023-11-24 08:05:30,727 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 3) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.health.LivenessCheck because of underlying class loading error: Type HealthCheckResponse from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:05:30,728 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 4) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.util.CORSFilter because of underlying class loading error: Type ContainerRequestContext from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:05:30,743 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 4) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.health.ReadinessCheck because of underlying class loading error: Type HealthCheckResponse from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:05:30,743 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 3) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.HelloService because of underlying class loading error: Type Tracer from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:05:30,752 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 4) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.util.LoggerProducer because of underlying class loading error: Type InjectionPoint from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:05:30,756 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 3) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.HelloWorld because of underlying class loading error: Type Response from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:05:30,769 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.LoginApi because of underlying class loading error: Type Response from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:05:31,912 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0021: Registered web context: '/helloworld-mp' for server 'default-server'
+2023-11-24 08:05:31,974 INFO  [SQL dialect] (ServerService Thread Pool -- 81) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-24 08:05:32,029 WARN  [org.hibernate.dialect.PostgreSQLPGObjectJdbcType] (ServerService Thread Pool -- 81) PostgreSQL JDBC driver classes are inaccessible and thus, certain DDL types like JSONB, JSON, GEOMETRY can not be used!: java.lang.ClassNotFoundException: org.postgresql.util.PGobject from [Module "org.hibernate" version 6.1.5.Final from local module loader @1698ee84 (finder: local module finder @10c626be (roots: C:\wildfly\wildfly-27.0.1.Final\modules,C:\wildfly\wildfly-27.0.1.Final\modules\system\layers\base))]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:200)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.hibernate@6.1.5.Final//org.hibernate.internal.util.ReflectHelper.classForName(ReflectHelper.java:163)
+	at org.hibernate@6.1.5.Final//org.hibernate.dialect.PostgreSQLPGObjectJdbcType.<clinit>(PostgreSQLPGObjectJdbcType.java:45)
+	at org.hibernate@6.1.5.Final//org.hibernate.dialect.PostgreSQLDialect.registerColumnTypes(PostgreSQLDialect.java:231)
+	at org.hibernate@6.1.5.Final//org.hibernate.dialect.Dialect.contributeTypes(Dialect.java:1341)
+	at org.hibernate@6.1.5.Final//org.hibernate.dialect.PostgreSQLDialect.contributeTypes(PostgreSQLDialect.java:1229)
+	at org.hibernate@6.1.5.Final//org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:386)
+	at org.hibernate@6.1.5.Final//org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:143)
+	at org.hibernate@6.1.5.Final//org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1350)
+	at org.hibernate@6.1.5.Final//org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1421)
+	at org.hibernate.jipijapa-hibernate6@27.0.1.Final//org.jboss.as.jpa.hibernate.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:45)
+	at org.jboss.as.jpa@27.0.1.Final//org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:171)
+	at org.jboss.as.jpa@27.0.1.Final//org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:129)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:664)
+	at org.jboss.as.jpa@27.0.1.Final//org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:214)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-11-24 08:05:32,072 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 81) Envers integration enabled? : true
+2023-11-24 08:05:34,168 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 81) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2023-11-24 08:05:34,206 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: alter table if exists Cabecera drop constraint if exists FKg5ep0q9jupmam733m70qqkxgo
+2023-11-24 08:05:34,280 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: alter table if exists Detalle drop constraint if exists FKcho2b3ifwsldch4b66nb3v2k1
+2023-11-24 08:05:34,287 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: alter table if exists Detalle drop constraint if exists FKhrwcyhhm2o82231afhh7rkmft
+2023-11-24 08:05:34,291 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: alter table if exists Detalle drop constraint if exists FKefgbkessf3vh3b9t2qyidke3j
+2023-11-24 08:05:34,296 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: alter table if exists Vehiculo drop constraint if exists FK81ejl8myodywnth1fn30rboyc
+2023-11-24 08:05:34,301 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: drop table if exists Cabecera cascade
+2023-11-24 08:05:34,327 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: drop table if exists Detalle cascade
+2023-11-24 08:05:34,336 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: drop table if exists Espacio cascade
+2023-11-24 08:05:34,347 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: drop table if exists Persona cascade
+2023-11-24 08:05:34,366 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: drop table if exists Vehiculo cascade
+2023-11-24 08:05:34,387 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: create table Cabecera (ticketInt integer not null, costoTotal float(53) not null, estado varchar(255), fechaEmision timestamp(6), numTicket varchar(255), propietarioCabecera_cedula varchar(255), primary key (ticketInt))
+2023-11-24 08:05:34,446 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: create table Detalle (detalleId integer not null, costo float(53) not null, fechaIngreso timestamp(6), fechaSalida timestamp(6), cabecera_ticketInt integer, espacio_espacioId integer, vehiculo_placa varchar(255), primary key (detalleId))
+2023-11-24 08:05:34,465 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: create table Espacio (espacioId integer not null, costo float(53) not null, estado varchar(255), numEspacio integer not null, primary key (espacioId))
+2023-11-24 08:05:34,477 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: create table Persona (cedula varchar(255) not null, direccion varchar(255), nombre varchar(255), primary key (cedula))
+2023-11-24 08:05:34,494 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: create table Vehiculo (placa varchar(255) not null, marca varchar(255), modelo varchar(255), tipo varchar(255), propietario_cedula varchar(255), primary key (placa))
+2023-11-24 08:05:34,515 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: alter table if exists Cabecera add constraint FKg5ep0q9jupmam733m70qqkxgo foreign key (propietarioCabecera_cedula) references Persona
+2023-11-24 08:05:34,539 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: alter table if exists Detalle add constraint FKcho2b3ifwsldch4b66nb3v2k1 foreign key (cabecera_ticketInt) references Cabecera
+2023-11-24 08:05:34,546 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: alter table if exists Detalle add constraint FKhrwcyhhm2o82231afhh7rkmft foreign key (espacio_espacioId) references Espacio
+2023-11-24 08:05:34,551 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: alter table if exists Detalle add constraint FKefgbkessf3vh3b9t2qyidke3j foreign key (vehiculo_placa) references Vehiculo
+2023-11-24 08:05:34,557 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: alter table if exists Vehiculo add constraint FK81ejl8myodywnth1fn30rboyc foreign key (propietario_cedula) references Persona
+2023-11-24 08:05:35,218 INFO  [stdout] (ServerService Thread Pool -- 84) ** PERSONAS ***
+2023-11-24 08:05:35,375 INFO  [stdout] (ServerService Thread Pool -- 84) ** VEHICULOS ***
+2023-11-24 08:05:35,379 INFO  [stdout] (ServerService Thread Pool -- 84) ** ESPACIOS ***
+2023-11-24 08:05:35,384 INFO  [stdout] (ServerService Thread Pool -- 84) ** CABECERAS ***
+2023-11-24 08:05:35,384 INFO  [stdout] (ServerService Thread Pool -- 84) ** DETALLES ***
+2023-11-24 08:05:35,454 INFO  [stdout] (ServerService Thread Pool -- 84) Hibernate: select null,c1_0.costoTotal,c1_0.estado,c1_0.fechaEmision,c1_0.numTicket,c1_0.propietarioCabecera_cedula from Cabecera c1_0 where c1_0.ticketInt=?
+2023-11-24 08:05:35,592 INFO  [stdout] (ServerService Thread Pool -- 84) Hibernate: insert into Persona (direccion, nombre, cedula) values (?, ?, ?)
+2023-11-24 08:05:35,604 INFO  [stdout] (ServerService Thread Pool -- 84) Hibernate: insert into Vehiculo (marca, modelo, propietario_cedula, tipo, placa) values (?, ?, ?, ?, ?)
+2023-11-24 08:05:35,612 INFO  [stdout] (ServerService Thread Pool -- 84) Hibernate: insert into Espacio (costo, estado, numEspacio, espacioId) values (?, ?, ?, ?)
+2023-11-24 08:05:35,622 INFO  [stdout] (ServerService Thread Pool -- 84) Hibernate: insert into Detalle (cabecera_ticketInt, costo, espacio_espacioId, fechaIngreso, fechaSalida, vehiculo_placa, detalleId) values (?, ?, ?, ?, ?, ?, ?)
+2023-11-24 08:05:35,630 INFO  [stdout] (ServerService Thread Pool -- 84) Hibernate: insert into Detalle (cabecera_ticketInt, costo, espacio_espacioId, fechaIngreso, fechaSalida, vehiculo_placa, detalleId) values (?, ?, ?, ?, ?, ?, ?)
+2023-11-24 08:05:35,637 INFO  [stdout] (ServerService Thread Pool -- 84) Hibernate: insert into Cabecera (costoTotal, estado, fechaEmision, numTicket, propietarioCabecera_cedula, ticketInt) values (?, ?, ?, ?, ?, ?)
+2023-11-24 08:05:35,643 INFO  [stdout] (ServerService Thread Pool -- 84) Hibernate: update Detalle set cabecera_ticketInt=?, costo=?, espacio_espacioId=?, fechaIngreso=?, fechaSalida=?, vehiculo_placa=? where detalleId=?
+2023-11-24 08:05:35,651 INFO  [stdout] (ServerService Thread Pool -- 84) Hibernate: update Detalle set cabecera_ticketInt=?, costo=?, espacio_espacioId=?, fechaIngreso=?, fechaSalida=?, vehiculo_placa=? where detalleId=?
+2023-11-24 08:05:35,816 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 84) Inicializando Mojarra 4.0.0.SP01 para el contexto '/proyecto'
+2023-11-24 08:05:37,239 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 84) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class ups.edu.ec.proyecto.Services.PathBase
+2023-11-24 08:05:38,087 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0021: Registered web context: '/proyecto' for server 'default-server'
+2023-11-24 08:05:38,604 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 46) WFLYSRV0010: Deployed "proyecto.war" (runtime-name : "proyecto.war")
+2023-11-24 08:05:38,610 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 46) WFLYSRV0010: Deployed "helloworld-mp.war" (runtime-name : "helloworld-mp.war")
+2023-11-24 08:05:38,852 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-11-24 08:05:38,856 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) started in 57800ms - Started 699 of 930 services (368 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-11-24 08:05:38,863 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-11-24 08:05:38,864 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-11-24 08:06:34,079 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 25) WFLYUT0022: Unregistered web context: '/proyecto' from server 'default-server'
+2023-11-24 08:06:34,114 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 99) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'proyecto.war#proyectoPersistenceUnit'
+2023-11-24 08:06:34,121 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 99) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@557d72fb
+2023-11-24 08:06:34,132 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 99) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'proyecto.war#proyectoPersistenceUnit'
+2023-11-24 08:06:34,177 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment proyecto.war (runtime-name: proyecto.war) in 113ms
+2023-11-24 08:06:34,393 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "proyecto.war" (runtime-name: "proyecto.war")
+2023-11-24 08:07:04,510 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 99) WFLYUT0022: Unregistered web context: '/helloworld-mp' from server 'default-server'
+2023-11-24 08:07:04,547 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment helloworld-mp.war (runtime-name: helloworld-mp.war) in 37ms
+2023-11-24 08:07:04,600 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "helloworld-mp.war" (runtime-name: "helloworld-mp.war")
+2023-11-24 08:07:09,624 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found helloworld-mp.war in deployment directory. To trigger deployment create a file called helloworld-mp.war.dodeploy
+2023-11-24 08:07:09,635 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "helloworld-mp.war" (runtime-name: "helloworld-mp.war")
+2023-11-24 08:07:09,867 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment helloworld-mp.war
+2023-11-24 08:07:10,074 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-5) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-11-24 08:07:10,084 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-11-24 08:07:10,085 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-5) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=helloworld-mp.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=5CG039D8B0, jaeger.version=Java-1.6.0, ip=127.0.0.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-11-24 08:07:10,280 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.health.LivenessCheck because of underlying class loading error: Type HealthCheckResponse from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:07:10,303 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 3) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.LoginApi because of underlying class loading error: Type Response from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:07:10,317 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 3) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.health.ReadinessCheck because of underlying class loading error: Type HealthCheckResponse from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:07:10,317 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.HelloService because of underlying class loading error: Type Tracer from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:07:10,332 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 3) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.util.LoggerProducer because of underlying class loading error: Type InjectionPoint from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:07:10,341 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 2) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.util.CORSFilter because of underlying class loading error: Type ContainerRequestContext from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:07:10,346 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.HelloWorld because of underlying class loading error: Type Response from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:07:10,654 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 102) WFLYUT0021: Registered web context: '/helloworld-mp' for server 'default-server'
+2023-11-24 08:07:10,723 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "helloworld-mp.war" (runtime-name : "helloworld-mp.war")
+2023-11-24 08:35:39,271 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-11-24 08:35:45,275 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-11-24 08:35:45,298 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-11-24 08:35:45,574 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) starting
+2023-11-24 08:35:45,577 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\wildfly\wildfly-27.0.1.Final\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre
+	java.io.tmpdir = C:\Users\KAARJO~1\AppData\Local\Temp\
+	java.library.path = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Users/KaarJoseph/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin/server;C:/Users/KaarJoseph/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin;C:\app\KaarJoseph\product\21c\dbhomeXE\bin;C:\app\ORTEL\product\21c\dbhomeXE\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\KaarJoseph\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\6.0\bin;C:\Users\KaarJoseph\AppData\Local\Microsoft\WindowsApps;C:\Users\KaarJoseph\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KaarJoseph\AppData\Roaming\npm;C:\Users\KaarJoseph\Desktop;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.7+7
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Adoptium
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-17.0.7+7
+	java.version = 17.0.7
+	java.version.date = 2023-04-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Eclipse Adoptium
+	java.vm.version = 17.0.7+7
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\wildfly\wildfly-27.0.1.Final
+	jboss.host.name = 5cg039d8b0
+	jboss.modules.dir = C:\wildfly\wildfly-27.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = 5cg039d8b0
+	jboss.qualified.host.name = 5cg039d8b0
+	jboss.server.base.dir = C:\wildfly\wildfly-27.0.1.Final\standalone
+	jboss.server.config.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\log
+	jboss.server.name = 5cg039d8b0
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\logging.properties
+	module.path = C:\wildfly\wildfly-27.0.1.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\wildfly\wildfly-27.0.1.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 24+
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\wildfly\wildfly-27.0.1.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\wildfly\wildfly-27.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = EC
+	user.dir = C:\wildfly\wildfly-27.0.1.Final\bin
+	user.home = C:\Users\KaarJoseph
+	user.language = es
+	user.name = Kaar Joseph
+	user.script = 
+	user.timezone = America/Guayaquil
+	user.variant = 
+2023-11-24 08:35:45,583 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 24+ -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\wildfly\wildfly-27.0.1.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\wildfly\wildfly-27.0.1.Final -Dorg.jboss.logmanager.nocolor=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages 
+2023-11-24 08:35:51,185 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.0.0.Final
+2023-11-24 08:35:57,590 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 15) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-11-24 08:35:57,591 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 15) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-11-24 08:35:59,567 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 6) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-11-24 08:35:59,759 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found helloworld-mp.war in deployment directory. To trigger deployment create a file called helloworld-mp.war.dodeploy
+2023-11-24 08:35:59,768 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found helloworld-rs.war in deployment directory. To trigger deployment create a file called helloworld-rs.war.dodeploy
+2023-11-24 08:35:59,863 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-11-24 08:35:59,903 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.8.8.Final
+2023-11-24 08:35:59,922 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.8.8.Final
+2023-11-24 08:36:00,083 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-11-24 08:36:00,102 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2023-11-24 08:36:00,139 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-11-24 08:36:00,149 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-11-24 08:36:00,150 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-11-24 08:36:00,157 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-11-24 08:36:00,158 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-11-24 08:36:00,174 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-11-24 08:36:00,188 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-11-24 08:36:00,198 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-11-24 08:36:00,229 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2023-11-24 08:36:00,344 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2023-11-24 08:36:00,362 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "helloworld-mp.war" (runtime-name: "helloworld-mp.war")
+2023-11-24 08:36:00,362 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "helloworld-rs.war" (runtime-name: "helloworld-rs.war")
+2023-11-24 08:36:00,577 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2023-11-24 08:36:00,599 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-11-24 08:36:00,649 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 2.3.0.Final starting
+2023-11-24 08:36:00,787 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-11-24 08:36:00,789 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2023-11-24 08:36:00,862 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-11-24 08:36:00,965 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-11-24 08:36:01,016 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-3) WFLYELY00023: KeyStore file 'C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-11-24 08:36:01,075 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = postgresql-driver
+2023-11-24 08:36:01,114 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path 'C:\wildfly\wildfly-27.0.1.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-11-24 08:36:01,159 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-3) WFLYELY01084: KeyStore C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-11-24 08:36:02,227 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2023-11-24 08:36:02,234 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2023-11-24 08:36:02,234 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2023-11-24 08:36:02,325 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.26.Final
+2023-11-24 08:36:02,359 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2023-11-24 08:36:02,366 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) Queuing requests.
+2023-11-24 08:36:02,372 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2023-11-24 08:36:02,544 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-11-24 08:36:02,544 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-11-24 08:36:02,821 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-11-24 08:36:03,059 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/proyecto]
+2023-11-24 08:36:03,060 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-11-24 08:36:03,059 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ejPostgresDS]
+2023-11-24 08:36:03,069 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/evaWebDS]
+2023-11-24 08:36:09,440 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-11-24 08:36:09,457 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory C:\wildfly\wildfly-27.0.1.Final\standalone\deployments
+2023-11-24 08:36:11,157 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-4) 
+2023-11-24 08:36:13,670 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment helloworld-rs.war
+2023-11-24 08:36:13,670 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment helloworld-mp.war
+2023-11-24 08:36:15,264 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 8.0.0.Final
+2023-11-24 08:36:15,995 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-5) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-11-24 08:36:16,019 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-6) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-11-24 08:36:16,083 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-6) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-11-24 08:36:16,095 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-11-24 08:36:16,104 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-6) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=helloworld-rs.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=5CG039D8B0, jaeger.version=Java-1.6.0, ip=172.16.222.225}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-11-24 08:36:16,124 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-5) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=helloworld-mp.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=5CG039D8B0, jaeger.version=Java-1.6.0, ip=172.16.222.225}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-11-24 08:36:16,302 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 5.1.0 (Final)
+2023-11-24 08:36:17,092 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 2) Failed to define class org.jboss.as.quickstarts.util.CORSFilter in Module "deployment.helloworld-rs.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link org/jboss/as/quickstarts/util/CORSFilter (Module "deployment.helloworld-rs.war" from Service Module Loader): javax/ws/rs/container/ContainerResponseFilter
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@27.0.1.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:68)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:83)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:63)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:108)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-11-24 08:36:17,093 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 3) Failed to define class org.jboss.as.quickstarts.rshelloworld.JAXActivator in Module "deployment.helloworld-rs.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link org/jboss/as/quickstarts/rshelloworld/JAXActivator (Module "deployment.helloworld-rs.war" from Service Module Loader): javax/ws/rs/core/Application
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@27.0.1.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:68)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:83)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:63)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:108)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-11-24 08:36:17,096 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 2) WELD-000119: Not generating any bean definitions from org.jboss.as.quickstarts.util.CORSFilter because of underlying class loading error: Type Failed to link org.jboss.as.quickstarts.util.CORSFilter (Module "deployment.helloworld-rs.war" from Service Module Loader): javax.ws.rs.container.ContainerResponseFilter not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:36:17,098 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 3) WELD-000119: Not generating any bean definitions from org.jboss.as.quickstarts.rshelloworld.JAXActivator because of underlying class loading error: Type Failed to link org.jboss.as.quickstarts.rshelloworld.JAXActivator (Module "deployment.helloworld-rs.war" from Service Module Loader): javax.ws.rs.core.Application not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:36:17,145 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 4) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.util.CORSFilter because of underlying class loading error: Type ContainerRequestContext from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:36:17,151 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.health.LivenessCheck because of underlying class loading error: Type HealthCheckResponse from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:36:17,152 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 5) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.LoginApi because of underlying class loading error: Type Response from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:36:17,181 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 4) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.HelloService because of underlying class loading error: Type Tracer from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:36:17,191 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 4) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.util.LoggerProducer because of underlying class loading error: Type InjectionPoint from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:36:17,203 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 5) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.health.ReadinessCheck because of underlying class loading error: Type HealthCheckResponse from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:36:17,204 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 2) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.HelloWorld because of underlying class loading error: Type Response from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:36:18,178 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0021: Registered web context: '/helloworld-rs' for server 'default-server'
+2023-11-24 08:36:18,178 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 83) WFLYUT0021: Registered web context: '/helloworld-mp' for server 'default-server'
+2023-11-24 08:36:18,791 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 46) WFLYSRV0010: Deployed "helloworld-rs.war" (runtime-name : "helloworld-rs.war")
+2023-11-24 08:36:18,791 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 46) WFLYSRV0010: Deployed "helloworld-mp.war" (runtime-name : "helloworld-mp.war")
+2023-11-24 08:36:18,918 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-11-24 08:36:18,925 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) started in 51172ms - Started 504 of 755 services (368 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-11-24 08:36:18,933 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-11-24 08:36:18,934 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-11-24 08:50:12,165 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 29) WFLYUT0022: Unregistered web context: '/helloworld-rs' from server 'default-server'
+2023-11-24 08:50:12,635 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment helloworld-rs.war (runtime-name: helloworld-rs.war) in 591ms
+2023-11-24 08:50:13,169 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "helloworld-rs.war" (runtime-name: "helloworld-rs.war")
+2023-11-24 08:50:20,123 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found helloworld-rs.war in deployment directory. To trigger deployment create a file called helloworld-rs.war.dodeploy
+2023-11-24 08:50:20,253 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "helloworld-rs.war" (runtime-name: "helloworld-rs.war")
+2023-11-24 08:50:21,333 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment helloworld-rs.war
+2023-11-24 08:50:22,031 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-4) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-11-24 08:50:22,067 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-4) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-11-24 08:50:22,075 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-4) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=helloworld-rs.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=5CG039D8B0, jaeger.version=Java-1.6.0, ip=172.16.222.225}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-11-24 08:50:23,089 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 4) Failed to define class org.jboss.as.quickstarts.util.CORSFilter in Module "deployment.helloworld-rs.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link org/jboss/as/quickstarts/util/CORSFilter (Module "deployment.helloworld-rs.war" from Service Module Loader): javax/ws/rs/container/ContainerResponseFilter
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@27.0.1.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:68)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:83)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:63)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:108)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-11-24 08:50:23,089 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 3) Failed to define class org.jboss.as.quickstarts.rshelloworld.JAXActivator in Module "deployment.helloworld-rs.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link org/jboss/as/quickstarts/rshelloworld/JAXActivator (Module "deployment.helloworld-rs.war" from Service Module Loader): javax/ws/rs/core/Application
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@27.0.1.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:68)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:83)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:63)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:108)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@5.1.0.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-11-24 08:50:23,104 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 3) WELD-000119: Not generating any bean definitions from org.jboss.as.quickstarts.rshelloworld.JAXActivator because of underlying class loading error: Type Failed to link org.jboss.as.quickstarts.rshelloworld.JAXActivator (Module "deployment.helloworld-rs.war" from Service Module Loader): javax.ws.rs.core.Application not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:50:23,104 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 4) WELD-000119: Not generating any bean definitions from org.jboss.as.quickstarts.util.CORSFilter because of underlying class loading error: Type Failed to link org.jboss.as.quickstarts.util.CORSFilter (Module "deployment.helloworld-rs.war" from Service Module Loader): javax.ws.rs.container.ContainerResponseFilter not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:50:24,094 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0021: Registered web context: '/helloworld-rs' for server 'default-server'
+2023-11-24 08:50:24,720 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "helloworld-rs.war" (runtime-name : "helloworld-rs.war")
+2023-11-24 08:51:14,919 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0022: Unregistered web context: '/helloworld-rs' from server 'default-server'
+2023-11-24 08:51:14,953 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment helloworld-rs.war (runtime-name: helloworld-rs.war) in 37ms
+2023-11-24 08:51:14,996 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "helloworld-rs.war" (runtime-name: "helloworld-rs.war")
+2023-11-24 08:51:35,512 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-11-24 08:51:37,071 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-11-24 08:51:37,092 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-11-24 08:51:37,387 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) starting
+2023-11-24 08:51:37,391 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\wildfly\wildfly-27.0.1.Final\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre
+	java.io.tmpdir = C:\Users\KAARJO~1\AppData\Local\Temp\
+	java.library.path = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Users/KaarJoseph/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin/server;C:/Users/KaarJoseph/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin;C:\app\KaarJoseph\product\21c\dbhomeXE\bin;C:\app\ORTEL\product\21c\dbhomeXE\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\KaarJoseph\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\6.0\bin;C:\Users\KaarJoseph\AppData\Local\Microsoft\WindowsApps;C:\Users\KaarJoseph\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KaarJoseph\AppData\Roaming\npm;C:\Users\KaarJoseph\Desktop;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.7+7
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Adoptium
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-17.0.7+7
+	java.version = 17.0.7
+	java.version.date = 2023-04-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Eclipse Adoptium
+	java.vm.version = 17.0.7+7
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\wildfly\wildfly-27.0.1.Final
+	jboss.host.name = 5cg039d8b0
+	jboss.modules.dir = C:\wildfly\wildfly-27.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = 5cg039d8b0
+	jboss.qualified.host.name = 5cg039d8b0
+	jboss.server.base.dir = C:\wildfly\wildfly-27.0.1.Final\standalone
+	jboss.server.config.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\log
+	jboss.server.name = 5cg039d8b0
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\logging.properties
+	module.path = C:\wildfly\wildfly-27.0.1.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\wildfly\wildfly-27.0.1.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 24+
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\wildfly\wildfly-27.0.1.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\wildfly\wildfly-27.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = EC
+	user.dir = C:\wildfly\wildfly-27.0.1.Final\bin
+	user.home = C:\Users\KaarJoseph
+	user.language = es
+	user.name = Kaar Joseph
+	user.script = 
+	user.timezone = America/Guayaquil
+	user.variant = 
+2023-11-24 08:51:37,396 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 24+ -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\wildfly\wildfly-27.0.1.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\wildfly\wildfly-27.0.1.Final -Dorg.jboss.logmanager.nocolor=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages 
+2023-11-24 08:51:39,321 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.0.0.Final
+2023-11-24 08:51:40,447 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 17) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-11-24 08:51:40,448 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 17) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-11-24 08:51:41,085 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 21) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-11-24 08:51:41,273 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found helloworld-mp.war in deployment directory. To trigger deployment create a file called helloworld-mp.war.dodeploy
+2023-11-24 08:51:41,277 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found helloworld-rs.war in deployment directory. To trigger deployment create a file called helloworld-rs.war.dodeploy
+2023-11-24 08:51:41,443 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-11-24 08:51:41,497 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.8.8.Final
+2023-11-24 08:51:41,522 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.8.8.Final
+2023-11-24 08:51:41,798 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-11-24 08:51:41,841 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2023-11-24 08:51:41,872 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-11-24 08:51:41,893 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-11-24 08:51:41,896 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-11-24 08:51:41,910 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-11-24 08:51:41,918 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-11-24 08:51:41,999 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-11-24 08:51:42,002 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2023-11-24 08:51:42,005 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2023-11-24 08:51:42,032 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-11-24 08:51:42,040 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-11-24 08:51:42,154 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-11-24 08:51:42,239 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-11-24 08:51:42,286 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2023-11-24 08:51:42,359 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.3.0.Final starting
+2023-11-24 08:51:42,376 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "helloworld-mp.war" (runtime-name: "helloworld-mp.war")
+2023-11-24 08:51:42,455 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-11-24 08:51:42,456 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = postgresql-driver
+2023-11-24 08:51:42,473 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2023-11-24 08:51:42,615 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-11-24 08:51:42,639 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-2) WFLYELY00023: KeyStore file 'C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-11-24 08:51:42,750 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY01084: KeyStore C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-11-24 08:51:42,996 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path 'C:\wildfly\wildfly-27.0.1.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-11-24 08:51:43,921 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2023-11-24 08:51:43,967 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2023-11-24 08:51:43,970 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2023-11-24 08:51:44,107 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2023-11-24 08:51:44,113 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) Queuing requests.
+2023-11-24 08:51:44,131 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2023-11-24 08:51:44,131 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.26.Final
+2023-11-24 08:51:44,264 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-11-24 08:51:44,268 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory C:\wildfly\wildfly-27.0.1.Final\standalone\deployments
+2023-11-24 08:51:44,878 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-11-24 08:51:44,890 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-11-24 08:51:44,975 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-11-24 08:51:45,207 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-11-24 08:51:45,207 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ejPostgresDS]
+2023-11-24 08:51:45,208 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/evaWebDS]
+2023-11-24 08:51:45,207 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/proyecto]
+2023-11-24 08:51:45,295 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-4) 
+2023-11-24 08:51:50,848 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment helloworld-mp.war
+2023-11-24 08:51:51,178 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 8.0.0.Final
+2023-11-24 08:51:51,890 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-8) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-11-24 08:51:51,915 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-11-24 08:51:51,920 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-8) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=helloworld-mp.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=5CG039D8B0, jaeger.version=Java-1.6.0, ip=172.16.222.225}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-11-24 08:51:52,046 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 5.1.0 (Final)
+2023-11-24 08:51:52,832 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 4) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.health.LivenessCheck because of underlying class loading error: Type HealthCheckResponse from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:51:52,860 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 3) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.HelloService because of underlying class loading error: Type Tracer from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:51:52,886 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 3) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.health.ReadinessCheck because of underlying class loading error: Type HealthCheckResponse from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:51:52,889 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 2) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.LoginApi because of underlying class loading error: Type Response from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:51:52,988 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 4) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.util.CORSFilter because of underlying class loading error: Type ContainerRequestContext from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:51:53,042 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 5) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.util.LoggerProducer because of underlying class loading error: Type InjectionPoint from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:51:53,095 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 5) WELD-000119: Not generating any bean definitions from ec.edu.ups.demo.helloworld.HelloWorld because of underlying class loading error: Type Response from [Module "deployment.helloworld-mp.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-24 08:51:54,356 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0021: Registered web context: '/helloworld-mp' for server 'default-server'
+2023-11-24 08:51:54,697 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 46) WFLYSRV0010: Deployed "helloworld-mp.war" (runtime-name : "helloworld-mp.war")
+2023-11-24 08:51:54,842 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-11-24 08:51:54,850 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) started in 20658ms - Started 420 of 670 services (364 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-11-24 08:51:54,857 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-11-24 08:51:54,858 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990

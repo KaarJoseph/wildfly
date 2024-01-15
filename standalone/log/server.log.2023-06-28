@@ -1,0 +1,1166 @@
+2023-06-28 08:26:50,750 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-06-28 08:26:58,666 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-06-28 08:26:58,696 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-06-28 08:26:59,047 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) starting
+2023-06-28 08:26:59,055 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\wildfly\wildfly-27.0.1.Final\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre
+	java.io.tmpdir = C:\Users\KAARJO~1\AppData\Local\Temp\
+	java.library.path = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Users/KaarJoseph/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin/server;C:/Users/KaarJoseph/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin;C:\app\KaarJoseph\product\21c\dbhomeXE\bin;C:\app\ORTEL\product\21c\dbhomeXE\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\KaarJoseph\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Users\KaarJoseph\AppData\Local\Microsoft\WindowsApps;C:\Users\KaarJoseph\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KaarJoseph\AppData\Roaming\npm;C:\Users\KaarJoseph\Desktop;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.7+7
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Adoptium
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-17.0.7+7
+	java.version = 17.0.7
+	java.version.date = 2023-04-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Eclipse Adoptium
+	java.vm.version = 17.0.7+7
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\wildfly\wildfly-27.0.1.Final
+	jboss.host.name = 5cg039d8b0
+	jboss.modules.dir = C:\wildfly\wildfly-27.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = 5cg039d8b0
+	jboss.qualified.host.name = 5cg039d8b0
+	jboss.server.base.dir = C:\wildfly\wildfly-27.0.1.Final\standalone
+	jboss.server.config.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\log
+	jboss.server.name = 5cg039d8b0
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\logging.properties
+	module.path = C:\wildfly\wildfly-27.0.1.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\wildfly\wildfly-27.0.1.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 24+
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\wildfly\wildfly-27.0.1.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\wildfly\wildfly-27.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = EC
+	user.dir = C:\wildfly\wildfly-27.0.1.Final\bin
+	user.home = C:\Users\KaarJoseph
+	user.language = es
+	user.name = Kaar Joseph
+	user.script = 
+	user.timezone = America/Guayaquil
+	user.variant = 
+2023-06-28 08:26:59,065 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 24+ -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\wildfly\wildfly-27.0.1.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\wildfly\wildfly-27.0.1.Final -Dorg.jboss.logmanager.nocolor=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages 
+2023-06-28 08:27:04,977 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.0.0.Final
+2023-06-28 08:27:14,009 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 4) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-06-28 08:27:14,012 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 4) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-06-28 08:27:16,938 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-06-28 08:27:17,132 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found webapp.war in deployment directory. To trigger deployment create a file called webapp.war.dodeploy
+2023-06-28 08:27:17,286 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-06-28 08:27:17,346 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.8.8.Final
+2023-06-28 08:27:17,379 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.8.8.Final
+2023-06-28 08:27:17,613 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-06-28 08:27:17,633 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2023-06-28 08:27:17,656 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-06-28 08:27:17,661 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-06-28 08:27:17,663 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-06-28 08:27:17,666 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-06-28 08:27:17,666 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-06-28 08:27:17,692 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-06-28 08:27:17,698 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "webapp.war" (runtime-name: "webapp.war")
+2023-06-28 08:27:17,713 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-06-28 08:27:17,743 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2023-06-28 08:27:17,782 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2023-06-28 08:27:17,900 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-06-28 08:27:18,355 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-06-28 08:27:18,490 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2023-06-28 08:27:18,804 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 2.3.0.Final starting
+2023-06-28 08:27:18,806 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-06-28 08:27:18,818 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2023-06-28 08:27:18,820 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-06-28 08:27:18,831 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY00023: KeyStore file 'C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-06-28 08:27:18,938 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-7) WFLYELY01084: KeyStore C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-06-28 08:27:19,089 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-06-28 08:27:19,096 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = postgresql-driver
+2023-06-28 08:27:19,143 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path 'C:\wildfly\wildfly-27.0.1.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-06-28 08:27:20,839 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2023-06-28 08:27:20,845 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2023-06-28 08:27:20,847 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2023-06-28 08:27:20,997 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2023-06-28 08:27:20,999 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) Queuing requests.
+2023-06-28 08:27:21,001 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2023-06-28 08:27:21,016 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.26.Final
+2023-06-28 08:27:21,159 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-06-28 08:27:21,151 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-06-28 08:27:21,413 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-06-28 08:27:21,697 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-06-28 08:27:21,710 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/ejPostgresDS]
+2023-06-28 08:27:28,956 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-06-28 08:27:28,972 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory C:\wildfly\wildfly-27.0.1.Final\standalone\deployments
+2023-06-28 08:27:31,620 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-4) 
+2023-06-28 08:27:32,513 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for webappPersistenceUnit
+2023-06-28 08:27:35,602 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for webapp.war#webappPersistenceUnit
+2023-06-28 08:27:36,165 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment webapp.war
+2023-06-28 08:27:37,938 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 81) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-06-28 08:27:39,251 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'webapp.war#webappPersistenceUnit'
+2023-06-28 08:27:39,330 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 81) HHH000204: Processing PersistenceUnitInfo [name: webappPersistenceUnit]
+2023-06-28 08:27:39,496 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 8.0.0.Final
+2023-06-28 08:27:39,610 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 81) HHH000412: Hibernate ORM core version 6.1.5.Final
+2023-06-28 08:27:40,065 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'VehiculoDao' in deployment unit 'deployment "webapp.war"' are as follows:
+
+	java:global/webapp/VehiculoDao!ups.edu.ec.webapp.datos.VehiculoDao
+	java:app/webapp/VehiculoDao!ups.edu.ec.webapp.datos.VehiculoDao
+	java:module/VehiculoDao!ups.edu.ec.webapp.datos.VehiculoDao
+	java:global/webapp/VehiculoDao
+	java:app/webapp/VehiculoDao
+	java:module/VehiculoDao
+
+2023-06-28 08:27:40,066 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'PersonaDao' in deployment unit 'deployment "webapp.war"' are as follows:
+
+	java:global/webapp/PersonaDao!ups.edu.ec.webapp.datos.PersonaDao
+	java:app/webapp/PersonaDao!ups.edu.ec.webapp.datos.PersonaDao
+	java:module/PersonaDao!ups.edu.ec.webapp.datos.PersonaDao
+	java:global/webapp/PersonaDao
+	java:app/webapp/PersonaDao
+	java:module/PersonaDao
+
+2023-06-28 08:27:40,067 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'DatosDemo' in deployment unit 'deployment "webapp.war"' are as follows:
+
+	java:global/webapp/DatosDemo!ups.edu.ec.webapp.negocio.DatosDemo
+	java:app/webapp/DatosDemo!ups.edu.ec.webapp.negocio.DatosDemo
+	java:module/DatosDemo!ups.edu.ec.webapp.negocio.DatosDemo
+	java:global/webapp/DatosDemo
+	java:app/webapp/DatosDemo
+	java:module/DatosDemo
+
+2023-06-28 08:27:40,331 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 81) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-06-28 08:27:40,664 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-5) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-06-28 08:27:40,699 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-06-28 08:27:40,712 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-5) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=webapp.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=5CG039D8B0, jaeger.version=Java-1.6.0, ip=192.168.56.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-06-28 08:27:41,144 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for webapp.war#webappPersistenceUnit
+2023-06-28 08:27:41,309 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-06-28 08:27:41,425 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 5.1.0 (Final)
+2023-06-28 08:27:41,682 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = webapp.war_org.postgresql.Driver_42_2
+2023-06-28 08:27:42,197 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'webapp.war#webappPersistenceUnit'
+2023-06-28 08:27:42,981 INFO  [SQL dialect] (ServerService Thread Pool -- 81) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-28 08:27:43,093 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 81) Envers integration enabled? : true
+2023-06-28 08:27:46,636 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 81) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2023-06-28 08:27:46,690 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:27:46,690 INFO  [stdout] (ServerService Thread Pool -- 81)     
+2023-06-28 08:27:46,690 INFO  [stdout] (ServerService Thread Pool -- 81)     alter table if exists Vehiculo 
+2023-06-28 08:27:46,691 INFO  [stdout] (ServerService Thread Pool -- 81)        drop constraint if exists FKcij049ohm32vckst1xeaf3ggl
+2023-06-28 08:27:46,715 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (ServerService Thread Pool -- 81) SQL Warning Code: 0, SQLState: 00000
+2023-06-28 08:27:46,715 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (ServerService Thread Pool -- 81) no existe la relación «vehiculo», ignorando
+2023-06-28 08:27:46,716 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:27:46,717 INFO  [stdout] (ServerService Thread Pool -- 81)     
+2023-06-28 08:27:46,717 INFO  [stdout] (ServerService Thread Pool -- 81)     drop table if exists Persona cascade
+2023-06-28 08:27:46,798 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:27:46,798 INFO  [stdout] (ServerService Thread Pool -- 81)     
+2023-06-28 08:27:46,798 INFO  [stdout] (ServerService Thread Pool -- 81)     drop table if exists Vehiculo cascade
+2023-06-28 08:27:46,801 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (ServerService Thread Pool -- 81) SQL Warning Code: 0, SQLState: 00000
+2023-06-28 08:27:46,801 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (ServerService Thread Pool -- 81) la tabla «vehiculo» no existe, ignorando
+2023-06-28 08:27:46,813 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:27:46,813 INFO  [stdout] (ServerService Thread Pool -- 81)     
+2023-06-28 08:27:46,814 INFO  [stdout] (ServerService Thread Pool -- 81)     create table Persona (
+2023-06-28 08:27:46,814 INFO  [stdout] (ServerService Thread Pool -- 81)        cedula varchar(255) not null,
+2023-06-28 08:27:46,814 INFO  [stdout] (ServerService Thread Pool -- 81)         direccion varchar(255),
+2023-06-28 08:27:46,814 INFO  [stdout] (ServerService Thread Pool -- 81)         nombre varchar(255),
+2023-06-28 08:27:46,815 INFO  [stdout] (ServerService Thread Pool -- 81)         primary key (cedula)
+2023-06-28 08:27:46,815 INFO  [stdout] (ServerService Thread Pool -- 81)     )
+2023-06-28 08:27:46,876 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:27:46,877 INFO  [stdout] (ServerService Thread Pool -- 81)     
+2023-06-28 08:27:46,877 INFO  [stdout] (ServerService Thread Pool -- 81)     create table Vehiculo (
+2023-06-28 08:27:46,877 INFO  [stdout] (ServerService Thread Pool -- 81)        vehiculoId integer not null,
+2023-06-28 08:27:46,877 INFO  [stdout] (ServerService Thread Pool -- 81)         marca varchar(255),
+2023-06-28 08:27:46,877 INFO  [stdout] (ServerService Thread Pool -- 81)         modelo varchar(255),
+2023-06-28 08:27:46,878 INFO  [stdout] (ServerService Thread Pool -- 81)         placa varchar(255),
+2023-06-28 08:27:46,878 INFO  [stdout] (ServerService Thread Pool -- 81)         tipo varchar(255),
+2023-06-28 08:27:46,878 INFO  [stdout] (ServerService Thread Pool -- 81)         persona_cedula varchar(255),
+2023-06-28 08:27:46,879 INFO  [stdout] (ServerService Thread Pool -- 81)         primary key (vehiculoId)
+2023-06-28 08:27:46,880 INFO  [stdout] (ServerService Thread Pool -- 81)     )
+2023-06-28 08:27:46,902 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:27:46,902 INFO  [stdout] (ServerService Thread Pool -- 81)     
+2023-06-28 08:27:46,902 INFO  [stdout] (ServerService Thread Pool -- 81)     alter table if exists Vehiculo 
+2023-06-28 08:27:46,903 INFO  [stdout] (ServerService Thread Pool -- 81)        add constraint FKcij049ohm32vckst1xeaf3ggl 
+2023-06-28 08:27:46,903 INFO  [stdout] (ServerService Thread Pool -- 81)        foreign key (persona_cedula) 
+2023-06-28 08:27:46,903 INFO  [stdout] (ServerService Thread Pool -- 81)        references Persona
+2023-06-28 08:27:48,691 INFO  [stdout] (ServerService Thread Pool -- 83) Hola UPS
+2023-06-28 08:27:49,086 INFO  [stdout] (ServerService Thread Pool -- 83) Persona2
+2023-06-28 08:27:49,090 INFO  [stdout] (ServerService Thread Pool -- 83) Persona3
+2023-06-28 08:27:49,810 INFO  [stdout] (ServerService Thread Pool -- 83) Hibernate: 
+2023-06-28 08:27:49,811 INFO  [stdout] (ServerService Thread Pool -- 83)     insert 
+2023-06-28 08:27:49,811 INFO  [stdout] (ServerService Thread Pool -- 83)     into
+2023-06-28 08:27:49,812 INFO  [stdout] (ServerService Thread Pool -- 83)         Persona
+2023-06-28 08:27:49,812 INFO  [stdout] (ServerService Thread Pool -- 83)         (direccion, nombre, cedula) 
+2023-06-28 08:27:49,813 INFO  [stdout] (ServerService Thread Pool -- 83)     values
+2023-06-28 08:27:49,813 INFO  [stdout] (ServerService Thread Pool -- 83)         (?, ?, ?)
+2023-06-28 08:27:49,884 INFO  [stdout] (ServerService Thread Pool -- 83) Hibernate: 
+2023-06-28 08:27:49,884 INFO  [stdout] (ServerService Thread Pool -- 83)     insert 
+2023-06-28 08:27:49,884 INFO  [stdout] (ServerService Thread Pool -- 83)     into
+2023-06-28 08:27:49,884 INFO  [stdout] (ServerService Thread Pool -- 83)         Persona
+2023-06-28 08:27:49,885 INFO  [stdout] (ServerService Thread Pool -- 83)         (direccion, nombre, cedula) 
+2023-06-28 08:27:49,885 INFO  [stdout] (ServerService Thread Pool -- 83)     values
+2023-06-28 08:27:49,885 INFO  [stdout] (ServerService Thread Pool -- 83)         (?, ?, ?)
+2023-06-28 08:27:49,888 INFO  [stdout] (ServerService Thread Pool -- 83) Hibernate: 
+2023-06-28 08:27:49,888 INFO  [stdout] (ServerService Thread Pool -- 83)     insert 
+2023-06-28 08:27:49,888 INFO  [stdout] (ServerService Thread Pool -- 83)     into
+2023-06-28 08:27:49,888 INFO  [stdout] (ServerService Thread Pool -- 83)         Persona
+2023-06-28 08:27:49,889 INFO  [stdout] (ServerService Thread Pool -- 83)         (direccion, nombre, cedula) 
+2023-06-28 08:27:49,889 INFO  [stdout] (ServerService Thread Pool -- 83)     values
+2023-06-28 08:27:49,889 INFO  [stdout] (ServerService Thread Pool -- 83)         (?, ?, ?)
+2023-06-28 08:27:49,971 INFO  [stdout] (ServerService Thread Pool -- 83) Hibernate: 
+2023-06-28 08:27:49,971 INFO  [stdout] (ServerService Thread Pool -- 83)     select
+2023-06-28 08:27:49,971 INFO  [stdout] (ServerService Thread Pool -- 83)         p1_0.cedula,
+2023-06-28 08:27:49,971 INFO  [stdout] (ServerService Thread Pool -- 83)         p1_0.direccion,
+2023-06-28 08:27:49,972 INFO  [stdout] (ServerService Thread Pool -- 83)         p1_0.nombre 
+2023-06-28 08:27:49,972 INFO  [stdout] (ServerService Thread Pool -- 83)     from
+2023-06-28 08:27:49,972 INFO  [stdout] (ServerService Thread Pool -- 83)         Persona p1_0
+2023-06-28 08:27:50,017 INFO  [stdout] (ServerService Thread Pool -- 83) Hibernate: 
+2023-06-28 08:27:50,017 INFO  [stdout] (ServerService Thread Pool -- 83)     select
+2023-06-28 08:27:50,018 INFO  [stdout] (ServerService Thread Pool -- 83)         v1_0.vehiculoId,
+2023-06-28 08:27:50,019 INFO  [stdout] (ServerService Thread Pool -- 83)         v1_0.marca,
+2023-06-28 08:27:50,020 INFO  [stdout] (ServerService Thread Pool -- 83)         v1_0.modelo,
+2023-06-28 08:27:50,020 INFO  [stdout] (ServerService Thread Pool -- 83)         p1_0.cedula,
+2023-06-28 08:27:50,020 INFO  [stdout] (ServerService Thread Pool -- 83)         p1_0.direccion,
+2023-06-28 08:27:50,020 INFO  [stdout] (ServerService Thread Pool -- 83)         p1_0.nombre,
+2023-06-28 08:27:50,021 INFO  [stdout] (ServerService Thread Pool -- 83)         v1_0.placa,
+2023-06-28 08:27:50,021 INFO  [stdout] (ServerService Thread Pool -- 83)         v1_0.tipo 
+2023-06-28 08:27:50,022 INFO  [stdout] (ServerService Thread Pool -- 83)     from
+2023-06-28 08:27:50,022 INFO  [stdout] (ServerService Thread Pool -- 83)         Vehiculo v1_0 
+2023-06-28 08:27:50,022 INFO  [stdout] (ServerService Thread Pool -- 83)     left join
+2023-06-28 08:27:50,022 INFO  [stdout] (ServerService Thread Pool -- 83)         Persona p1_0 
+2023-06-28 08:27:50,023 INFO  [stdout] (ServerService Thread Pool -- 83)             on p1_0.cedula=v1_0.persona_cedula 
+2023-06-28 08:27:50,023 INFO  [stdout] (ServerService Thread Pool -- 83)     where
+2023-06-28 08:27:50,023 INFO  [stdout] (ServerService Thread Pool -- 83)         v1_0.persona_cedula=?
+2023-06-28 08:27:50,047 INFO  [stdout] (ServerService Thread Pool -- 83) Hibernate: 
+2023-06-28 08:27:50,048 INFO  [stdout] (ServerService Thread Pool -- 83)     select
+2023-06-28 08:27:50,048 INFO  [stdout] (ServerService Thread Pool -- 83)         v1_0.vehiculoId,
+2023-06-28 08:27:50,048 INFO  [stdout] (ServerService Thread Pool -- 83)         v1_0.marca,
+2023-06-28 08:27:50,049 INFO  [stdout] (ServerService Thread Pool -- 83)         v1_0.modelo,
+2023-06-28 08:27:50,049 INFO  [stdout] (ServerService Thread Pool -- 83)         p1_0.cedula,
+2023-06-28 08:27:50,049 INFO  [stdout] (ServerService Thread Pool -- 83)         p1_0.direccion,
+2023-06-28 08:27:50,049 INFO  [stdout] (ServerService Thread Pool -- 83)         p1_0.nombre,
+2023-06-28 08:27:50,050 INFO  [stdout] (ServerService Thread Pool -- 83)         v1_0.placa,
+2023-06-28 08:27:50,050 INFO  [stdout] (ServerService Thread Pool -- 83)         v1_0.tipo 
+2023-06-28 08:27:50,050 INFO  [stdout] (ServerService Thread Pool -- 83)     from
+2023-06-28 08:27:50,050 INFO  [stdout] (ServerService Thread Pool -- 83)         Vehiculo v1_0 
+2023-06-28 08:27:50,050 INFO  [stdout] (ServerService Thread Pool -- 83)     left join
+2023-06-28 08:27:50,050 INFO  [stdout] (ServerService Thread Pool -- 83)         Persona p1_0 
+2023-06-28 08:27:50,051 INFO  [stdout] (ServerService Thread Pool -- 83)             on p1_0.cedula=v1_0.persona_cedula 
+2023-06-28 08:27:50,051 INFO  [stdout] (ServerService Thread Pool -- 83)     where
+2023-06-28 08:27:50,051 INFO  [stdout] (ServerService Thread Pool -- 83)         v1_0.persona_cedula=?
+2023-06-28 08:27:50,055 INFO  [stdout] (ServerService Thread Pool -- 83) Hibernate: 
+2023-06-28 08:27:50,056 INFO  [stdout] (ServerService Thread Pool -- 83)     select
+2023-06-28 08:27:50,056 INFO  [stdout] (ServerService Thread Pool -- 83)         v1_0.vehiculoId,
+2023-06-28 08:27:50,056 INFO  [stdout] (ServerService Thread Pool -- 83)         v1_0.marca,
+2023-06-28 08:27:50,057 INFO  [stdout] (ServerService Thread Pool -- 83)         v1_0.modelo,
+2023-06-28 08:27:50,057 INFO  [stdout] (ServerService Thread Pool -- 83)         p1_0.cedula,
+2023-06-28 08:27:50,057 INFO  [stdout] (ServerService Thread Pool -- 83)         p1_0.direccion,
+2023-06-28 08:27:50,057 INFO  [stdout] (ServerService Thread Pool -- 83)         p1_0.nombre,
+2023-06-28 08:27:50,057 INFO  [stdout] (ServerService Thread Pool -- 83)         v1_0.placa,
+2023-06-28 08:27:50,058 INFO  [stdout] (ServerService Thread Pool -- 83)         v1_0.tipo 
+2023-06-28 08:27:50,058 INFO  [stdout] (ServerService Thread Pool -- 83)     from
+2023-06-28 08:27:50,058 INFO  [stdout] (ServerService Thread Pool -- 83)         Vehiculo v1_0 
+2023-06-28 08:27:50,058 INFO  [stdout] (ServerService Thread Pool -- 83)     left join
+2023-06-28 08:27:50,058 INFO  [stdout] (ServerService Thread Pool -- 83)         Persona p1_0 
+2023-06-28 08:27:50,058 INFO  [stdout] (ServerService Thread Pool -- 83)             on p1_0.cedula=v1_0.persona_cedula 
+2023-06-28 08:27:50,060 INFO  [stdout] (ServerService Thread Pool -- 83)     where
+2023-06-28 08:27:50,060 INFO  [stdout] (ServerService Thread Pool -- 83)         v1_0.persona_cedula=?
+2023-06-28 08:27:50,064 INFO  [stdout] (ServerService Thread Pool -- 83) Cédula: 01
+2023-06-28 08:27:50,065 INFO  [stdout] (ServerService Thread Pool -- 83) Nombre: Joseph
+2023-06-28 08:27:50,066 INFO  [stdout] (ServerService Thread Pool -- 83) Dirección: Rio Cenepa
+2023-06-28 08:27:50,066 INFO  [stdout] (ServerService Thread Pool -- 83) -----------------------------
+2023-06-28 08:27:50,066 INFO  [stdout] (ServerService Thread Pool -- 83) Cédula: 02
+2023-06-28 08:27:50,068 INFO  [stdout] (ServerService Thread Pool -- 83) Nombre: Kaar
+2023-06-28 08:27:50,068 INFO  [stdout] (ServerService Thread Pool -- 83) Dirección: Rio Palora
+2023-06-28 08:27:50,068 INFO  [stdout] (ServerService Thread Pool -- 83) -----------------------------
+2023-06-28 08:27:50,069 INFO  [stdout] (ServerService Thread Pool -- 83) Cédula: 03
+2023-06-28 08:27:50,069 INFO  [stdout] (ServerService Thread Pool -- 83) Nombre: Kaar Joseph
+2023-06-28 08:27:50,069 INFO  [stdout] (ServerService Thread Pool -- 83) Dirección: Hurtado Mendoza
+2023-06-28 08:27:50,070 INFO  [stdout] (ServerService Thread Pool -- 83) -----------------------------
+2023-06-28 08:27:50,409 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 83) Inicializando Mojarra 4.0.0.SP01 para el contexto '/webapp'
+2023-06-28 08:27:51,746 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 83) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2023-06-28 08:27:52,067 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 46) WFLYSRV0010: Deployed "webapp.war" (runtime-name : "webapp.war")
+2023-06-28 08:27:52,226 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-06-28 08:27:52,235 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) started in 74626ms - Started 479 of 709 services (362 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-06-28 08:27:52,248 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-06-28 08:27:52,248 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-06-28 08:33:13,596 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = webapp.war_org.postgresql.Driver_42_2
+2023-06-28 08:33:13,638 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 24) WFLYUT0022: Unregistered web context: '/webapp' from server 'default-server'
+2023-06-28 08:33:13,837 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 24) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'webapp.war#webappPersistenceUnit'
+2023-06-28 08:33:13,875 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 24) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@400c122a
+2023-06-28 08:33:13,905 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 24) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'webapp.war#webappPersistenceUnit'
+2023-06-28 08:33:14,096 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment webapp.war (runtime-name: webapp.war) in 526ms
+2023-06-28 08:33:14,580 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "webapp.war" (runtime-name: "webapp.war")
+2023-06-28 08:33:19,618 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found webapp.war in deployment directory. To trigger deployment create a file called webapp.war.dodeploy
+2023-06-28 08:33:19,657 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "webapp.war" (runtime-name: "webapp.war")
+2023-06-28 08:33:20,439 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for webappPersistenceUnit
+2023-06-28 08:33:20,551 INFO  [org.jipijapa] (MSC service thread 1-2) JIPIORMV6020260: Second level cache enabled for webapp.war#webappPersistenceUnit
+2023-06-28 08:33:20,595 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment webapp.war
+2023-06-28 08:33:20,853 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 24) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-06-28 08:33:20,903 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'VehiculoDao' in deployment unit 'deployment "webapp.war"' are as follows:
+
+	java:global/webapp/VehiculoDao!ups.edu.ec.webapp.datos.VehiculoDao
+	java:app/webapp/VehiculoDao!ups.edu.ec.webapp.datos.VehiculoDao
+	java:module/VehiculoDao!ups.edu.ec.webapp.datos.VehiculoDao
+	java:global/webapp/VehiculoDao
+	java:app/webapp/VehiculoDao
+	java:module/VehiculoDao
+
+2023-06-28 08:33:20,905 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'PersonaDao' in deployment unit 'deployment "webapp.war"' are as follows:
+
+	java:global/webapp/PersonaDao!ups.edu.ec.webapp.datos.PersonaDao
+	java:app/webapp/PersonaDao!ups.edu.ec.webapp.datos.PersonaDao
+	java:module/PersonaDao!ups.edu.ec.webapp.datos.PersonaDao
+	java:global/webapp/PersonaDao
+	java:app/webapp/PersonaDao
+	java:module/PersonaDao
+
+2023-06-28 08:33:20,906 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'DatosDemo' in deployment unit 'deployment "webapp.war"' are as follows:
+
+	java:global/webapp/DatosDemo!ups.edu.ec.webapp.negocio.DatosDemo
+	java:app/webapp/DatosDemo!ups.edu.ec.webapp.negocio.DatosDemo
+	java:module/DatosDemo!ups.edu.ec.webapp.negocio.DatosDemo
+	java:global/webapp/DatosDemo
+	java:app/webapp/DatosDemo
+	java:module/DatosDemo
+
+2023-06-28 08:33:20,963 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 24) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'webapp.war#webappPersistenceUnit'
+2023-06-28 08:33:20,965 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 24) HHH000204: Processing PersistenceUnitInfo [name: webappPersistenceUnit]
+2023-06-28 08:33:20,993 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 24) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-06-28 08:33:21,054 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-8) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-06-28 08:33:21,067 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-06-28 08:33:21,068 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-8) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=webapp.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=5CG039D8B0, jaeger.version=Java-1.6.0, ip=192.168.56.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-06-28 08:33:21,129 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for webapp.war#webappPersistenceUnit
+2023-06-28 08:33:21,158 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-06-28 08:33:21,223 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = webapp.war_org.postgresql.Driver_42_2
+2023-06-28 08:33:21,264 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 24) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'webapp.war#webappPersistenceUnit'
+2023-06-28 08:33:21,303 INFO  [SQL dialect] (ServerService Thread Pool -- 24) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-28 08:33:21,315 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 24) Envers integration enabled? : true
+2023-06-28 08:33:21,556 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 24) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2023-06-28 08:33:21,563 INFO  [stdout] (ServerService Thread Pool -- 24) Hibernate: 
+2023-06-28 08:33:21,564 INFO  [stdout] (ServerService Thread Pool -- 24)     
+2023-06-28 08:33:21,565 INFO  [stdout] (ServerService Thread Pool -- 24)     alter table if exists Vehiculo 
+2023-06-28 08:33:21,567 INFO  [stdout] (ServerService Thread Pool -- 24)        drop constraint if exists FKcij049ohm32vckst1xeaf3ggl
+2023-06-28 08:33:21,585 INFO  [stdout] (ServerService Thread Pool -- 24) Hibernate: 
+2023-06-28 08:33:21,585 INFO  [stdout] (ServerService Thread Pool -- 24)     
+2023-06-28 08:33:21,585 INFO  [stdout] (ServerService Thread Pool -- 24)     drop table if exists Persona cascade
+2023-06-28 08:33:21,595 INFO  [stdout] (ServerService Thread Pool -- 24) Hibernate: 
+2023-06-28 08:33:21,595 INFO  [stdout] (ServerService Thread Pool -- 24)     
+2023-06-28 08:33:21,597 INFO  [stdout] (ServerService Thread Pool -- 24)     drop table if exists Vehiculo cascade
+2023-06-28 08:33:21,607 INFO  [stdout] (ServerService Thread Pool -- 24) Hibernate: 
+2023-06-28 08:33:21,608 INFO  [stdout] (ServerService Thread Pool -- 24)     
+2023-06-28 08:33:21,608 INFO  [stdout] (ServerService Thread Pool -- 24)     create table Persona (
+2023-06-28 08:33:21,608 INFO  [stdout] (ServerService Thread Pool -- 24)        cedula varchar(255) not null,
+2023-06-28 08:33:21,608 INFO  [stdout] (ServerService Thread Pool -- 24)         direccion varchar(255),
+2023-06-28 08:33:21,608 INFO  [stdout] (ServerService Thread Pool -- 24)         nombre varchar(255),
+2023-06-28 08:33:21,609 INFO  [stdout] (ServerService Thread Pool -- 24)         primary key (cedula)
+2023-06-28 08:33:21,609 INFO  [stdout] (ServerService Thread Pool -- 24)     )
+2023-06-28 08:33:21,636 INFO  [stdout] (ServerService Thread Pool -- 24) Hibernate: 
+2023-06-28 08:33:21,637 INFO  [stdout] (ServerService Thread Pool -- 24)     
+2023-06-28 08:33:21,637 INFO  [stdout] (ServerService Thread Pool -- 24)     create table Vehiculo (
+2023-06-28 08:33:21,638 INFO  [stdout] (ServerService Thread Pool -- 24)        vehiculoId integer not null,
+2023-06-28 08:33:21,638 INFO  [stdout] (ServerService Thread Pool -- 24)         marca varchar(255),
+2023-06-28 08:33:21,638 INFO  [stdout] (ServerService Thread Pool -- 24)         modelo varchar(255),
+2023-06-28 08:33:21,638 INFO  [stdout] (ServerService Thread Pool -- 24)         placa varchar(255),
+2023-06-28 08:33:21,638 INFO  [stdout] (ServerService Thread Pool -- 24)         tipo varchar(255),
+2023-06-28 08:33:21,638 INFO  [stdout] (ServerService Thread Pool -- 24)         persona_cedula varchar(255),
+2023-06-28 08:33:21,638 INFO  [stdout] (ServerService Thread Pool -- 24)         primary key (vehiculoId)
+2023-06-28 08:33:21,638 INFO  [stdout] (ServerService Thread Pool -- 24)     )
+2023-06-28 08:33:21,655 INFO  [stdout] (ServerService Thread Pool -- 24) Hibernate: 
+2023-06-28 08:33:21,656 INFO  [stdout] (ServerService Thread Pool -- 24)     
+2023-06-28 08:33:21,656 INFO  [stdout] (ServerService Thread Pool -- 24)     alter table if exists Vehiculo 
+2023-06-28 08:33:21,656 INFO  [stdout] (ServerService Thread Pool -- 24)        add constraint FKcij049ohm32vckst1xeaf3ggl 
+2023-06-28 08:33:21,656 INFO  [stdout] (ServerService Thread Pool -- 24)        foreign key (persona_cedula) 
+2023-06-28 08:33:21,656 INFO  [stdout] (ServerService Thread Pool -- 24)        references Persona
+2023-06-28 08:33:21,999 INFO  [stdout] (ServerService Thread Pool -- 24) Hola UPS
+2023-06-28 08:33:22,015 INFO  [stdout] (ServerService Thread Pool -- 24) Persona2
+2023-06-28 08:33:22,018 INFO  [stdout] (ServerService Thread Pool -- 24) Persona3
+2023-06-28 08:33:22,059 INFO  [stdout] (ServerService Thread Pool -- 24) Hibernate: 
+2023-06-28 08:33:22,059 INFO  [stdout] (ServerService Thread Pool -- 24)     insert 
+2023-06-28 08:33:22,060 INFO  [stdout] (ServerService Thread Pool -- 24)     into
+2023-06-28 08:33:22,060 INFO  [stdout] (ServerService Thread Pool -- 24)         Persona
+2023-06-28 08:33:22,060 INFO  [stdout] (ServerService Thread Pool -- 24)         (direccion, nombre, cedula) 
+2023-06-28 08:33:22,060 INFO  [stdout] (ServerService Thread Pool -- 24)     values
+2023-06-28 08:33:22,060 INFO  [stdout] (ServerService Thread Pool -- 24)         (?, ?, ?)
+2023-06-28 08:33:22,068 INFO  [stdout] (ServerService Thread Pool -- 24) Hibernate: 
+2023-06-28 08:33:22,068 INFO  [stdout] (ServerService Thread Pool -- 24)     insert 
+2023-06-28 08:33:22,068 INFO  [stdout] (ServerService Thread Pool -- 24)     into
+2023-06-28 08:33:22,068 INFO  [stdout] (ServerService Thread Pool -- 24)         Persona
+2023-06-28 08:33:22,068 INFO  [stdout] (ServerService Thread Pool -- 24)         (direccion, nombre, cedula) 
+2023-06-28 08:33:22,068 INFO  [stdout] (ServerService Thread Pool -- 24)     values
+2023-06-28 08:33:22,069 INFO  [stdout] (ServerService Thread Pool -- 24)         (?, ?, ?)
+2023-06-28 08:33:22,072 INFO  [stdout] (ServerService Thread Pool -- 24) Hibernate: 
+2023-06-28 08:33:22,072 INFO  [stdout] (ServerService Thread Pool -- 24)     insert 
+2023-06-28 08:33:22,072 INFO  [stdout] (ServerService Thread Pool -- 24)     into
+2023-06-28 08:33:22,072 INFO  [stdout] (ServerService Thread Pool -- 24)         Persona
+2023-06-28 08:33:22,072 INFO  [stdout] (ServerService Thread Pool -- 24)         (direccion, nombre, cedula) 
+2023-06-28 08:33:22,072 INFO  [stdout] (ServerService Thread Pool -- 24)     values
+2023-06-28 08:33:22,072 INFO  [stdout] (ServerService Thread Pool -- 24)         (?, ?, ?)
+2023-06-28 08:33:22,077 INFO  [stdout] (ServerService Thread Pool -- 24) Hibernate: 
+2023-06-28 08:33:22,077 INFO  [stdout] (ServerService Thread Pool -- 24)     select
+2023-06-28 08:33:22,078 INFO  [stdout] (ServerService Thread Pool -- 24)         p1_0.cedula,
+2023-06-28 08:33:22,078 INFO  [stdout] (ServerService Thread Pool -- 24)         p1_0.direccion,
+2023-06-28 08:33:22,078 INFO  [stdout] (ServerService Thread Pool -- 24)         p1_0.nombre 
+2023-06-28 08:33:22,078 INFO  [stdout] (ServerService Thread Pool -- 24)     from
+2023-06-28 08:33:22,078 INFO  [stdout] (ServerService Thread Pool -- 24)         Persona p1_0
+2023-06-28 08:33:22,082 INFO  [stdout] (ServerService Thread Pool -- 24) Hibernate: 
+2023-06-28 08:33:22,082 INFO  [stdout] (ServerService Thread Pool -- 24)     select
+2023-06-28 08:33:22,083 INFO  [stdout] (ServerService Thread Pool -- 24)         v1_0.vehiculoId,
+2023-06-28 08:33:22,083 INFO  [stdout] (ServerService Thread Pool -- 24)         v1_0.marca,
+2023-06-28 08:33:22,083 INFO  [stdout] (ServerService Thread Pool -- 24)         v1_0.modelo,
+2023-06-28 08:33:22,087 INFO  [stdout] (ServerService Thread Pool -- 24)         p1_0.cedula,
+2023-06-28 08:33:22,089 INFO  [stdout] (ServerService Thread Pool -- 24)         p1_0.direccion,
+2023-06-28 08:33:22,090 INFO  [stdout] (ServerService Thread Pool -- 24)         p1_0.nombre,
+2023-06-28 08:33:22,090 INFO  [stdout] (ServerService Thread Pool -- 24)         v1_0.placa,
+2023-06-28 08:33:22,091 INFO  [stdout] (ServerService Thread Pool -- 24)         v1_0.tipo 
+2023-06-28 08:33:22,096 INFO  [stdout] (ServerService Thread Pool -- 24)     from
+2023-06-28 08:33:22,096 INFO  [stdout] (ServerService Thread Pool -- 24)         Vehiculo v1_0 
+2023-06-28 08:33:22,097 INFO  [stdout] (ServerService Thread Pool -- 24)     left join
+2023-06-28 08:33:22,097 INFO  [stdout] (ServerService Thread Pool -- 24)         Persona p1_0 
+2023-06-28 08:33:22,097 INFO  [stdout] (ServerService Thread Pool -- 24)             on p1_0.cedula=v1_0.persona_cedula 
+2023-06-28 08:33:22,097 INFO  [stdout] (ServerService Thread Pool -- 24)     where
+2023-06-28 08:33:22,097 INFO  [stdout] (ServerService Thread Pool -- 24)         v1_0.persona_cedula=?
+2023-06-28 08:33:22,108 INFO  [stdout] (ServerService Thread Pool -- 24) Hibernate: 
+2023-06-28 08:33:22,112 INFO  [stdout] (ServerService Thread Pool -- 24)     select
+2023-06-28 08:33:22,116 INFO  [stdout] (ServerService Thread Pool -- 24)         v1_0.vehiculoId,
+2023-06-28 08:33:22,117 INFO  [stdout] (ServerService Thread Pool -- 24)         v1_0.marca,
+2023-06-28 08:33:22,119 INFO  [stdout] (ServerService Thread Pool -- 24)         v1_0.modelo,
+2023-06-28 08:33:22,119 INFO  [stdout] (ServerService Thread Pool -- 24)         p1_0.cedula,
+2023-06-28 08:33:22,119 INFO  [stdout] (ServerService Thread Pool -- 24)         p1_0.direccion,
+2023-06-28 08:33:22,119 INFO  [stdout] (ServerService Thread Pool -- 24)         p1_0.nombre,
+2023-06-28 08:33:22,120 INFO  [stdout] (ServerService Thread Pool -- 24)         v1_0.placa,
+2023-06-28 08:33:22,120 INFO  [stdout] (ServerService Thread Pool -- 24)         v1_0.tipo 
+2023-06-28 08:33:22,120 INFO  [stdout] (ServerService Thread Pool -- 24)     from
+2023-06-28 08:33:22,120 INFO  [stdout] (ServerService Thread Pool -- 24)         Vehiculo v1_0 
+2023-06-28 08:33:22,121 INFO  [stdout] (ServerService Thread Pool -- 24)     left join
+2023-06-28 08:33:22,121 INFO  [stdout] (ServerService Thread Pool -- 24)         Persona p1_0 
+2023-06-28 08:33:22,121 INFO  [stdout] (ServerService Thread Pool -- 24)             on p1_0.cedula=v1_0.persona_cedula 
+2023-06-28 08:33:22,124 INFO  [stdout] (ServerService Thread Pool -- 24)     where
+2023-06-28 08:33:22,126 INFO  [stdout] (ServerService Thread Pool -- 24)         v1_0.persona_cedula=?
+2023-06-28 08:33:22,139 INFO  [stdout] (ServerService Thread Pool -- 24) Hibernate: 
+2023-06-28 08:33:22,143 INFO  [stdout] (ServerService Thread Pool -- 24)     select
+2023-06-28 08:33:22,148 INFO  [stdout] (ServerService Thread Pool -- 24)         v1_0.vehiculoId,
+2023-06-28 08:33:22,153 INFO  [stdout] (ServerService Thread Pool -- 24)         v1_0.marca,
+2023-06-28 08:33:22,155 INFO  [stdout] (ServerService Thread Pool -- 24)         v1_0.modelo,
+2023-06-28 08:33:22,163 INFO  [stdout] (ServerService Thread Pool -- 24)         p1_0.cedula,
+2023-06-28 08:33:22,168 INFO  [stdout] (ServerService Thread Pool -- 24)         p1_0.direccion,
+2023-06-28 08:33:22,174 INFO  [stdout] (ServerService Thread Pool -- 24)         p1_0.nombre,
+2023-06-28 08:33:22,188 INFO  [stdout] (ServerService Thread Pool -- 24)         v1_0.placa,
+2023-06-28 08:33:22,192 INFO  [stdout] (ServerService Thread Pool -- 24)         v1_0.tipo 
+2023-06-28 08:33:22,195 INFO  [stdout] (ServerService Thread Pool -- 24)     from
+2023-06-28 08:33:22,195 INFO  [stdout] (ServerService Thread Pool -- 24)         Vehiculo v1_0 
+2023-06-28 08:33:22,196 INFO  [stdout] (ServerService Thread Pool -- 24)     left join
+2023-06-28 08:33:22,202 INFO  [stdout] (ServerService Thread Pool -- 24)         Persona p1_0 
+2023-06-28 08:33:22,203 INFO  [stdout] (ServerService Thread Pool -- 24)             on p1_0.cedula=v1_0.persona_cedula 
+2023-06-28 08:33:22,220 INFO  [stdout] (ServerService Thread Pool -- 24)     where
+2023-06-28 08:33:22,228 INFO  [stdout] (ServerService Thread Pool -- 24)         v1_0.persona_cedula=?
+2023-06-28 08:33:22,247 INFO  [stdout] (ServerService Thread Pool -- 24) Cédula: 01
+2023-06-28 08:33:22,260 INFO  [stdout] (ServerService Thread Pool -- 24) Nombre: Joseph
+2023-06-28 08:33:22,262 INFO  [stdout] (ServerService Thread Pool -- 24) Dirección: Rio Cenepa
+2023-06-28 08:33:22,263 INFO  [stdout] (ServerService Thread Pool -- 24) -----------------------------
+2023-06-28 08:33:22,264 INFO  [stdout] (ServerService Thread Pool -- 24) Cédula: 02
+2023-06-28 08:33:22,265 INFO  [stdout] (ServerService Thread Pool -- 24) Nombre: Kaar
+2023-06-28 08:33:22,265 INFO  [stdout] (ServerService Thread Pool -- 24) Dirección: Rio Palora
+2023-06-28 08:33:22,266 INFO  [stdout] (ServerService Thread Pool -- 24) -----------------------------
+2023-06-28 08:33:22,266 INFO  [stdout] (ServerService Thread Pool -- 24) Cédula: 03
+2023-06-28 08:33:22,266 INFO  [stdout] (ServerService Thread Pool -- 24) Nombre: Kaar Joseph
+2023-06-28 08:33:22,269 INFO  [stdout] (ServerService Thread Pool -- 24) Dirección: Hurtado Mendoza
+2023-06-28 08:33:22,269 INFO  [stdout] (ServerService Thread Pool -- 24) -----------------------------
+2023-06-28 08:33:22,356 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 24) Inicializando Mojarra 4.0.0.SP01 para el contexto '/webapp'
+2023-06-28 08:33:22,717 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 24) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2023-06-28 08:33:22,934 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "webapp.war" (runtime-name : "webapp.war")
+2023-06-28 08:39:03,101 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-06-28 08:39:04,495 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-06-28 08:39:04,524 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-06-28 08:39:04,849 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0049: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) starting
+2023-06-28 08:39:04,855 DEBUG [org.jboss.as.config] (MSC service thread 1-3) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\wildfly\wildfly-27.0.1.Final\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre
+	java.io.tmpdir = C:\Users\KAARJO~1\AppData\Local\Temp\
+	java.library.path = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Users/KaarJoseph/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin/server;C:/Users/KaarJoseph/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin;C:\app\KaarJoseph\product\21c\dbhomeXE\bin;C:\app\ORTEL\product\21c\dbhomeXE\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\KaarJoseph\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Users\KaarJoseph\AppData\Local\Microsoft\WindowsApps;C:\Users\KaarJoseph\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KaarJoseph\AppData\Roaming\npm;C:\Users\KaarJoseph\Desktop;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.7+7
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Adoptium
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-17.0.7+7
+	java.version = 17.0.7
+	java.version.date = 2023-04-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Eclipse Adoptium
+	java.vm.version = 17.0.7+7
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\wildfly\wildfly-27.0.1.Final
+	jboss.host.name = 5cg039d8b0
+	jboss.modules.dir = C:\wildfly\wildfly-27.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = 5cg039d8b0
+	jboss.qualified.host.name = 5cg039d8b0
+	jboss.server.base.dir = C:\wildfly\wildfly-27.0.1.Final\standalone
+	jboss.server.config.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\log
+	jboss.server.name = 5cg039d8b0
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\logging.properties
+	module.path = C:\wildfly\wildfly-27.0.1.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\wildfly\wildfly-27.0.1.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 24+
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\wildfly\wildfly-27.0.1.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\wildfly\wildfly-27.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = EC
+	user.dir = C:\wildfly\wildfly-27.0.1.Final\bin
+	user.home = C:\Users\KaarJoseph
+	user.language = es
+	user.name = Kaar Joseph
+	user.script = 
+	user.timezone = America/Guayaquil
+	user.variant = 
+2023-06-28 08:39:04,860 DEBUG [org.jboss.as.config] (MSC service thread 1-3) VM Arguments: -Dprogram.name=JBossTools: WildFly 24+ -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\wildfly\wildfly-27.0.1.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\wildfly\wildfly-27.0.1.Final -Dorg.jboss.logmanager.nocolor=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages 
+2023-06-28 08:39:07,012 INFO  [org.wildfly.security] (ServerService Thread Pool -- 4) ELY00001: WildFly Elytron version 2.0.0.Final
+2023-06-28 08:39:07,878 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 35) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-06-28 08:39:07,879 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 35) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-06-28 08:39:08,918 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 14) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-06-28 08:39:09,111 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found webapp.war in deployment directory. To trigger deployment create a file called webapp.war.dodeploy
+2023-06-28 08:39:09,205 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-06-28 08:39:09,283 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.8.8.Final
+2023-06-28 08:39:09,308 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.8.8.Final
+2023-06-28 08:39:09,549 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2023-06-28 08:39:09,563 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-06-28 08:39:09,564 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-06-28 08:39:09,602 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-06-28 08:39:09,634 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "webapp.war" (runtime-name: "webapp.war")
+2023-06-28 08:39:09,670 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-06-28 08:39:09,718 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-06-28 08:39:09,727 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-06-28 08:39:09,768 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2023-06-28 08:39:09,854 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-06-28 08:39:09,883 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-06-28 08:39:09,886 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2023-06-28 08:39:09,913 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-06-28 08:39:10,026 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-06-28 08:39:10,079 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2023-06-28 08:39:10,103 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.3.0.Final starting
+2023-06-28 08:39:10,179 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-06-28 08:39:10,193 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-06-28 08:39:10,212 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = postgresql-driver
+2023-06-28 08:39:10,213 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2023-06-28 08:39:10,214 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-06-28 08:39:10,491 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-8) WFLYELY00023: KeyStore file 'C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-06-28 08:39:10,620 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path 'C:\wildfly\wildfly-27.0.1.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-06-28 08:39:10,632 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-3) WFLYELY01084: KeyStore C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-06-28 08:39:12,221 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2023-06-28 08:39:12,244 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2023-06-28 08:39:12,250 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2023-06-28 08:39:12,357 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-06-28 08:39:12,468 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\wildfly\wildfly-27.0.1.Final\standalone\deployments
+2023-06-28 08:39:12,656 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.26.Final
+2023-06-28 08:39:12,782 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2023-06-28 08:39:12,791 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) Queuing requests.
+2023-06-28 08:39:12,793 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2023-06-28 08:39:12,984 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-06-28 08:39:12,987 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-06-28 08:39:13,150 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-06-28 08:39:13,546 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ejPostgresDS]
+2023-06-28 08:39:13,546 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-06-28 08:39:13,936 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-4) 
+2023-06-28 08:39:18,912 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for webappPersistenceUnit
+2023-06-28 08:39:19,115 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV6020260: Second level cache enabled for webapp.war#webappPersistenceUnit
+2023-06-28 08:39:19,547 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment webapp.war
+2023-06-28 08:39:19,861 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 8.0.0.Final
+2023-06-28 08:39:20,252 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'VehiculoDao' in deployment unit 'deployment "webapp.war"' are as follows:
+
+	java:global/webapp/VehiculoDao!ups.edu.ec.webapp.datos.VehiculoDao
+	java:app/webapp/VehiculoDao!ups.edu.ec.webapp.datos.VehiculoDao
+	java:module/VehiculoDao!ups.edu.ec.webapp.datos.VehiculoDao
+	java:global/webapp/VehiculoDao
+	java:app/webapp/VehiculoDao
+	java:module/VehiculoDao
+
+2023-06-28 08:39:20,253 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'PersonaDao' in deployment unit 'deployment "webapp.war"' are as follows:
+
+	java:global/webapp/PersonaDao!ups.edu.ec.webapp.datos.PersonaDao
+	java:app/webapp/PersonaDao!ups.edu.ec.webapp.datos.PersonaDao
+	java:module/PersonaDao!ups.edu.ec.webapp.datos.PersonaDao
+	java:global/webapp/PersonaDao
+	java:app/webapp/PersonaDao
+	java:module/PersonaDao
+
+2023-06-28 08:39:20,253 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'DatosDemo' in deployment unit 'deployment "webapp.war"' are as follows:
+
+	java:global/webapp/DatosDemo!ups.edu.ec.webapp.negocio.DatosDemo
+	java:app/webapp/DatosDemo!ups.edu.ec.webapp.negocio.DatosDemo
+	java:module/DatosDemo!ups.edu.ec.webapp.negocio.DatosDemo
+	java:global/webapp/DatosDemo
+	java:app/webapp/DatosDemo
+	java:module/DatosDemo
+
+2023-06-28 08:39:20,669 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 81) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-06-28 08:39:20,732 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-4) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-06-28 08:39:20,760 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-4) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-06-28 08:39:20,765 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-4) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=webapp.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=5CG039D8B0, jaeger.version=Java-1.6.0, ip=192.168.56.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-06-28 08:39:21,038 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for webapp.war#webappPersistenceUnit
+2023-06-28 08:39:21,157 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-06-28 08:39:21,232 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 5.1.0 (Final)
+2023-06-28 08:39:21,587 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = webapp.war_org.postgresql.Driver_42_2
+2023-06-28 08:39:22,036 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'webapp.war#webappPersistenceUnit'
+2023-06-28 08:39:22,093 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 81) HHH000204: Processing PersistenceUnitInfo [name: webappPersistenceUnit]
+2023-06-28 08:39:22,299 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 81) HHH000412: Hibernate ORM core version 6.1.5.Final
+2023-06-28 08:39:22,761 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 81) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-06-28 08:39:23,069 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'webapp.war#webappPersistenceUnit'
+2023-06-28 08:39:23,649 INFO  [SQL dialect] (ServerService Thread Pool -- 81) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-28 08:39:23,732 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 81) Envers integration enabled? : true
+2023-06-28 08:39:26,222 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 81) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2023-06-28 08:39:26,255 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:39:26,255 INFO  [stdout] (ServerService Thread Pool -- 81)     
+2023-06-28 08:39:26,255 INFO  [stdout] (ServerService Thread Pool -- 81)     alter table if exists Vehiculo 
+2023-06-28 08:39:26,255 INFO  [stdout] (ServerService Thread Pool -- 81)        drop constraint if exists FKe4vx77qo73p9jceyq23myl8su
+2023-06-28 08:39:26,273 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (ServerService Thread Pool -- 81) SQL Warning Code: 0, SQLState: 00000
+2023-06-28 08:39:26,273 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (ServerService Thread Pool -- 81) no existe la restricción «fke4vx77qo73p9jceyq23myl8su» en la relación «vehiculo», ignorando
+2023-06-28 08:39:26,274 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:39:26,274 INFO  [stdout] (ServerService Thread Pool -- 81)     
+2023-06-28 08:39:26,274 INFO  [stdout] (ServerService Thread Pool -- 81)     drop table if exists Persona cascade
+2023-06-28 08:39:26,299 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (ServerService Thread Pool -- 81) SQL Warning Code: 0, SQLState: 00000
+2023-06-28 08:39:26,299 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (ServerService Thread Pool -- 81) eliminando además restricción «fkcij049ohm32vckst1xeaf3ggl» en tabla vehiculo
+2023-06-28 08:39:26,300 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:39:26,300 INFO  [stdout] (ServerService Thread Pool -- 81)     
+2023-06-28 08:39:26,300 INFO  [stdout] (ServerService Thread Pool -- 81)     drop table if exists Vehiculo cascade
+2023-06-28 08:39:26,317 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:39:26,317 INFO  [stdout] (ServerService Thread Pool -- 81)     
+2023-06-28 08:39:26,317 INFO  [stdout] (ServerService Thread Pool -- 81)     create table Persona (
+2023-06-28 08:39:26,318 INFO  [stdout] (ServerService Thread Pool -- 81)        cedula varchar(255) not null,
+2023-06-28 08:39:26,318 INFO  [stdout] (ServerService Thread Pool -- 81)         direccion varchar(255),
+2023-06-28 08:39:26,318 INFO  [stdout] (ServerService Thread Pool -- 81)         nombre varchar(255),
+2023-06-28 08:39:26,318 INFO  [stdout] (ServerService Thread Pool -- 81)         primary key (cedula)
+2023-06-28 08:39:26,318 INFO  [stdout] (ServerService Thread Pool -- 81)     )
+2023-06-28 08:39:26,354 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:39:26,354 INFO  [stdout] (ServerService Thread Pool -- 81)     
+2023-06-28 08:39:26,355 INFO  [stdout] (ServerService Thread Pool -- 81)     create table Vehiculo (
+2023-06-28 08:39:26,355 INFO  [stdout] (ServerService Thread Pool -- 81)        vehiculoId integer not null,
+2023-06-28 08:39:26,355 INFO  [stdout] (ServerService Thread Pool -- 81)         marca varchar(255),
+2023-06-28 08:39:26,355 INFO  [stdout] (ServerService Thread Pool -- 81)         modelo varchar(255),
+2023-06-28 08:39:26,355 INFO  [stdout] (ServerService Thread Pool -- 81)         placa varchar(255),
+2023-06-28 08:39:26,356 INFO  [stdout] (ServerService Thread Pool -- 81)         tipo varchar(255),
+2023-06-28 08:39:26,356 INFO  [stdout] (ServerService Thread Pool -- 81)         cedula varchar(255),
+2023-06-28 08:39:26,356 INFO  [stdout] (ServerService Thread Pool -- 81)         primary key (vehiculoId)
+2023-06-28 08:39:26,356 INFO  [stdout] (ServerService Thread Pool -- 81)     )
+2023-06-28 08:39:26,372 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:39:26,372 INFO  [stdout] (ServerService Thread Pool -- 81)     
+2023-06-28 08:39:26,372 INFO  [stdout] (ServerService Thread Pool -- 81)     alter table if exists Vehiculo 
+2023-06-28 08:39:26,372 INFO  [stdout] (ServerService Thread Pool -- 81)        add constraint FKe4vx77qo73p9jceyq23myl8su 
+2023-06-28 08:39:26,373 INFO  [stdout] (ServerService Thread Pool -- 81)        foreign key (cedula) 
+2023-06-28 08:39:26,373 INFO  [stdout] (ServerService Thread Pool -- 81)        references Persona
+2023-06-28 08:39:27,452 INFO  [stdout] (ServerService Thread Pool -- 81) Hola UPS
+2023-06-28 08:39:27,605 INFO  [stdout] (ServerService Thread Pool -- 81) Persona2
+2023-06-28 08:39:27,608 INFO  [stdout] (ServerService Thread Pool -- 81) Persona3
+2023-06-28 08:39:28,100 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:39:28,100 INFO  [stdout] (ServerService Thread Pool -- 81)     insert 
+2023-06-28 08:39:28,101 INFO  [stdout] (ServerService Thread Pool -- 81)     into
+2023-06-28 08:39:28,101 INFO  [stdout] (ServerService Thread Pool -- 81)         Persona
+2023-06-28 08:39:28,101 INFO  [stdout] (ServerService Thread Pool -- 81)         (direccion, nombre, cedula) 
+2023-06-28 08:39:28,102 INFO  [stdout] (ServerService Thread Pool -- 81)     values
+2023-06-28 08:39:28,102 INFO  [stdout] (ServerService Thread Pool -- 81)         (?, ?, ?)
+2023-06-28 08:39:28,141 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:39:28,142 INFO  [stdout] (ServerService Thread Pool -- 81)     insert 
+2023-06-28 08:39:28,142 INFO  [stdout] (ServerService Thread Pool -- 81)     into
+2023-06-28 08:39:28,143 INFO  [stdout] (ServerService Thread Pool -- 81)         Persona
+2023-06-28 08:39:28,143 INFO  [stdout] (ServerService Thread Pool -- 81)         (direccion, nombre, cedula) 
+2023-06-28 08:39:28,143 INFO  [stdout] (ServerService Thread Pool -- 81)     values
+2023-06-28 08:39:28,143 INFO  [stdout] (ServerService Thread Pool -- 81)         (?, ?, ?)
+2023-06-28 08:39:28,146 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:39:28,146 INFO  [stdout] (ServerService Thread Pool -- 81)     insert 
+2023-06-28 08:39:28,146 INFO  [stdout] (ServerService Thread Pool -- 81)     into
+2023-06-28 08:39:28,146 INFO  [stdout] (ServerService Thread Pool -- 81)         Persona
+2023-06-28 08:39:28,146 INFO  [stdout] (ServerService Thread Pool -- 81)         (direccion, nombre, cedula) 
+2023-06-28 08:39:28,146 INFO  [stdout] (ServerService Thread Pool -- 81)     values
+2023-06-28 08:39:28,147 INFO  [stdout] (ServerService Thread Pool -- 81)         (?, ?, ?)
+2023-06-28 08:39:28,199 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:39:28,199 INFO  [stdout] (ServerService Thread Pool -- 81)     select
+2023-06-28 08:39:28,199 INFO  [stdout] (ServerService Thread Pool -- 81)         p1_0.cedula,
+2023-06-28 08:39:28,199 INFO  [stdout] (ServerService Thread Pool -- 81)         p1_0.direccion,
+2023-06-28 08:39:28,199 INFO  [stdout] (ServerService Thread Pool -- 81)         p1_0.nombre 
+2023-06-28 08:39:28,200 INFO  [stdout] (ServerService Thread Pool -- 81)     from
+2023-06-28 08:39:28,200 INFO  [stdout] (ServerService Thread Pool -- 81)         Persona p1_0
+2023-06-28 08:39:28,234 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:39:28,234 INFO  [stdout] (ServerService Thread Pool -- 81)     select
+2023-06-28 08:39:28,234 INFO  [stdout] (ServerService Thread Pool -- 81)         v1_0.vehiculoId,
+2023-06-28 08:39:28,235 INFO  [stdout] (ServerService Thread Pool -- 81)         v1_0.marca,
+2023-06-28 08:39:28,235 INFO  [stdout] (ServerService Thread Pool -- 81)         v1_0.modelo,
+2023-06-28 08:39:28,235 INFO  [stdout] (ServerService Thread Pool -- 81)         p1_0.cedula,
+2023-06-28 08:39:28,235 INFO  [stdout] (ServerService Thread Pool -- 81)         p1_0.direccion,
+2023-06-28 08:39:28,236 INFO  [stdout] (ServerService Thread Pool -- 81)         p1_0.nombre,
+2023-06-28 08:39:28,236 INFO  [stdout] (ServerService Thread Pool -- 81)         v1_0.placa,
+2023-06-28 08:39:28,236 INFO  [stdout] (ServerService Thread Pool -- 81)         v1_0.tipo 
+2023-06-28 08:39:28,236 INFO  [stdout] (ServerService Thread Pool -- 81)     from
+2023-06-28 08:39:28,237 INFO  [stdout] (ServerService Thread Pool -- 81)         Vehiculo v1_0 
+2023-06-28 08:39:28,237 INFO  [stdout] (ServerService Thread Pool -- 81)     left join
+2023-06-28 08:39:28,237 INFO  [stdout] (ServerService Thread Pool -- 81)         Persona p1_0 
+2023-06-28 08:39:28,237 INFO  [stdout] (ServerService Thread Pool -- 81)             on p1_0.cedula=v1_0.cedula 
+2023-06-28 08:39:28,238 INFO  [stdout] (ServerService Thread Pool -- 81)     where
+2023-06-28 08:39:28,238 INFO  [stdout] (ServerService Thread Pool -- 81)         v1_0.cedula=?
+2023-06-28 08:39:28,250 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:39:28,251 INFO  [stdout] (ServerService Thread Pool -- 81)     select
+2023-06-28 08:39:28,251 INFO  [stdout] (ServerService Thread Pool -- 81)         v1_0.vehiculoId,
+2023-06-28 08:39:28,251 INFO  [stdout] (ServerService Thread Pool -- 81)         v1_0.marca,
+2023-06-28 08:39:28,252 INFO  [stdout] (ServerService Thread Pool -- 81)         v1_0.modelo,
+2023-06-28 08:39:28,252 INFO  [stdout] (ServerService Thread Pool -- 81)         p1_0.cedula,
+2023-06-28 08:39:28,252 INFO  [stdout] (ServerService Thread Pool -- 81)         p1_0.direccion,
+2023-06-28 08:39:28,253 INFO  [stdout] (ServerService Thread Pool -- 81)         p1_0.nombre,
+2023-06-28 08:39:28,253 INFO  [stdout] (ServerService Thread Pool -- 81)         v1_0.placa,
+2023-06-28 08:39:28,253 INFO  [stdout] (ServerService Thread Pool -- 81)         v1_0.tipo 
+2023-06-28 08:39:28,253 INFO  [stdout] (ServerService Thread Pool -- 81)     from
+2023-06-28 08:39:28,253 INFO  [stdout] (ServerService Thread Pool -- 81)         Vehiculo v1_0 
+2023-06-28 08:39:28,253 INFO  [stdout] (ServerService Thread Pool -- 81)     left join
+2023-06-28 08:39:28,254 INFO  [stdout] (ServerService Thread Pool -- 81)         Persona p1_0 
+2023-06-28 08:39:28,254 INFO  [stdout] (ServerService Thread Pool -- 81)             on p1_0.cedula=v1_0.cedula 
+2023-06-28 08:39:28,254 INFO  [stdout] (ServerService Thread Pool -- 81)     where
+2023-06-28 08:39:28,254 INFO  [stdout] (ServerService Thread Pool -- 81)         v1_0.cedula=?
+2023-06-28 08:39:28,258 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: 
+2023-06-28 08:39:28,259 INFO  [stdout] (ServerService Thread Pool -- 81)     select
+2023-06-28 08:39:28,259 INFO  [stdout] (ServerService Thread Pool -- 81)         v1_0.vehiculoId,
+2023-06-28 08:39:28,260 INFO  [stdout] (ServerService Thread Pool -- 81)         v1_0.marca,
+2023-06-28 08:39:28,260 INFO  [stdout] (ServerService Thread Pool -- 81)         v1_0.modelo,
+2023-06-28 08:39:28,260 INFO  [stdout] (ServerService Thread Pool -- 81)         p1_0.cedula,
+2023-06-28 08:39:28,260 INFO  [stdout] (ServerService Thread Pool -- 81)         p1_0.direccion,
+2023-06-28 08:39:28,260 INFO  [stdout] (ServerService Thread Pool -- 81)         p1_0.nombre,
+2023-06-28 08:39:28,261 INFO  [stdout] (ServerService Thread Pool -- 81)         v1_0.placa,
+2023-06-28 08:39:28,261 INFO  [stdout] (ServerService Thread Pool -- 81)         v1_0.tipo 
+2023-06-28 08:39:28,261 INFO  [stdout] (ServerService Thread Pool -- 81)     from
+2023-06-28 08:39:28,261 INFO  [stdout] (ServerService Thread Pool -- 81)         Vehiculo v1_0 
+2023-06-28 08:39:28,261 INFO  [stdout] (ServerService Thread Pool -- 81)     left join
+2023-06-28 08:39:28,261 INFO  [stdout] (ServerService Thread Pool -- 81)         Persona p1_0 
+2023-06-28 08:39:28,261 INFO  [stdout] (ServerService Thread Pool -- 81)             on p1_0.cedula=v1_0.cedula 
+2023-06-28 08:39:28,262 INFO  [stdout] (ServerService Thread Pool -- 81)     where
+2023-06-28 08:39:28,262 INFO  [stdout] (ServerService Thread Pool -- 81)         v1_0.cedula=?
+2023-06-28 08:39:28,267 INFO  [stdout] (ServerService Thread Pool -- 81) Cédula: 01
+2023-06-28 08:39:28,268 INFO  [stdout] (ServerService Thread Pool -- 81) Nombre: Joseph
+2023-06-28 08:39:28,269 INFO  [stdout] (ServerService Thread Pool -- 81) Dirección: Rio Cenepa
+2023-06-28 08:39:28,271 INFO  [stdout] (ServerService Thread Pool -- 81) -----------------------------
+2023-06-28 08:39:28,271 INFO  [stdout] (ServerService Thread Pool -- 81) Cédula: 02
+2023-06-28 08:39:28,271 INFO  [stdout] (ServerService Thread Pool -- 81) Nombre: Kaar
+2023-06-28 08:39:28,272 INFO  [stdout] (ServerService Thread Pool -- 81) Dirección: Rio Palora
+2023-06-28 08:39:28,272 INFO  [stdout] (ServerService Thread Pool -- 81) -----------------------------
+2023-06-28 08:39:28,272 INFO  [stdout] (ServerService Thread Pool -- 81) Cédula: 03
+2023-06-28 08:39:28,272 INFO  [stdout] (ServerService Thread Pool -- 81) Nombre: Kaar Joseph
+2023-06-28 08:39:28,273 INFO  [stdout] (ServerService Thread Pool -- 81) Dirección: Hurtado Mendoza
+2023-06-28 08:39:28,273 INFO  [stdout] (ServerService Thread Pool -- 81) -----------------------------
+2023-06-28 08:39:28,511 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 81) Inicializando Mojarra 4.0.0.SP01 para el contexto '/webapp'
+2023-06-28 08:39:29,619 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2023-06-28 08:39:30,028 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 46) WFLYSRV0010: Deployed "webapp.war" (runtime-name : "webapp.war")
+2023-06-28 08:39:30,152 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-06-28 08:39:30,158 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) started in 28086ms - Started 479 of 709 services (362 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-06-28 08:39:30,164 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-06-28 08:39:30,165 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-06-28 08:58:00,867 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-06-28 08:58:02,157 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-06-28 08:58:02,179 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-06-28 08:58:02,475 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) starting
+2023-06-28 08:58:02,478 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\wildfly\wildfly-27.0.1.Final\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre
+	java.io.tmpdir = C:\Users\KAARJO~1\AppData\Local\Temp\
+	java.library.path = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Users/KaarJoseph/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin/server;C:/Users/KaarJoseph/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin;C:\app\KaarJoseph\product\21c\dbhomeXE\bin;C:\app\ORTEL\product\21c\dbhomeXE\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\KaarJoseph\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Users\KaarJoseph\AppData\Local\Microsoft\WindowsApps;C:\Users\KaarJoseph\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KaarJoseph\AppData\Roaming\npm;C:\Users\KaarJoseph\Desktop;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.7+7
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Adoptium
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-17.0.7+7
+	java.version = 17.0.7
+	java.version.date = 2023-04-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Eclipse Adoptium
+	java.vm.version = 17.0.7+7
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\wildfly\wildfly-27.0.1.Final
+	jboss.host.name = 5cg039d8b0
+	jboss.modules.dir = C:\wildfly\wildfly-27.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = 5cg039d8b0
+	jboss.qualified.host.name = 5cg039d8b0
+	jboss.server.base.dir = C:\wildfly\wildfly-27.0.1.Final\standalone
+	jboss.server.config.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\log
+	jboss.server.name = 5cg039d8b0
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\logging.properties
+	module.path = C:\wildfly\wildfly-27.0.1.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\wildfly\wildfly-27.0.1.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 24+
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\wildfly\wildfly-27.0.1.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\wildfly\wildfly-27.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = EC
+	user.dir = C:\wildfly\wildfly-27.0.1.Final\bin
+	user.home = C:\Users\KaarJoseph
+	user.language = es
+	user.name = Kaar Joseph
+	user.script = 
+	user.timezone = America/Guayaquil
+	user.variant = 
+2023-06-28 08:58:02,485 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 24+ -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\wildfly\wildfly-27.0.1.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\wildfly\wildfly-27.0.1.Final -Dorg.jboss.logmanager.nocolor=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages 
+2023-06-28 08:58:04,612 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.0.0.Final
+2023-06-28 08:58:05,415 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 8) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-06-28 08:58:05,416 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 8) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-06-28 08:58:06,049 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 20) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-06-28 08:58:06,309 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found webapp.war in deployment directory. To trigger deployment create a file called webapp.war.dodeploy
+2023-06-28 08:58:06,492 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-06-28 08:58:06,536 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.8.8.Final
+2023-06-28 08:58:06,560 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.8.8.Final
+2023-06-28 08:58:06,817 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-06-28 08:58:06,843 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2023-06-28 08:58:06,869 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-06-28 08:58:06,877 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-06-28 08:58:06,887 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-06-28 08:58:06,919 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-06-28 08:58:06,932 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-06-28 08:58:06,935 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-06-28 08:58:06,935 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-06-28 08:58:06,937 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-06-28 08:58:06,958 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2023-06-28 08:58:07,041 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-06-28 08:58:07,058 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-06-28 08:58:07,101 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2023-06-28 08:58:07,199 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.3.0.Final starting
+2023-06-28 08:58:07,274 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2023-06-28 08:58:07,327 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "webapp.war" (runtime-name: "webapp.war")
+2023-06-28 08:58:07,375 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2023-06-28 08:58:07,420 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = postgresql-driver
+2023-06-28 08:58:07,421 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-06-28 08:58:07,449 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-06-28 08:58:07,502 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-2) WFLYELY00023: KeyStore file 'C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-06-28 08:58:07,525 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path 'C:\wildfly\wildfly-27.0.1.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-06-28 08:58:07,553 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-8) WFLYELY01084: KeyStore C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-06-28 08:58:08,953 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2023-06-28 08:58:08,969 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2023-06-28 08:58:08,970 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2023-06-28 08:58:09,083 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\wildfly\wildfly-27.0.1.Final\standalone\deployments
+2023-06-28 08:58:09,087 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.26.Final
+2023-06-28 08:58:09,167 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-06-28 08:58:09,186 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2023-06-28 08:58:09,188 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) Queuing requests.
+2023-06-28 08:58:09,193 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2023-06-28 08:58:09,323 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-06-28 08:58:09,327 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-06-28 08:58:09,677 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-06-28 08:58:09,770 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-4) 
+2023-06-28 08:58:09,827 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-06-28 08:58:09,830 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ejPostgresDS]
+2023-06-28 08:58:10,795 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for webappPersistenceUnit
+2023-06-28 08:58:10,978 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV6020260: Second level cache enabled for webapp.war#webappPersistenceUnit
+2023-06-28 08:58:11,388 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment webapp.war
+2023-06-28 08:58:11,699 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-6) HV000001: Hibernate Validator 8.0.0.Final
+2023-06-28 08:58:12,364 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'VehiculoDao' in deployment unit 'deployment "webapp.war"' are as follows:
+
+	java:global/webapp/VehiculoDao!ups.edu.ec.webapp.datos.VehiculoDao
+	java:app/webapp/VehiculoDao!ups.edu.ec.webapp.datos.VehiculoDao
+	java:module/VehiculoDao!ups.edu.ec.webapp.datos.VehiculoDao
+	java:global/webapp/VehiculoDao
+	java:app/webapp/VehiculoDao
+	java:module/VehiculoDao
+
+2023-06-28 08:58:12,365 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'PersonaDao' in deployment unit 'deployment "webapp.war"' are as follows:
+
+	java:global/webapp/PersonaDao!ups.edu.ec.webapp.datos.PersonaDao
+	java:app/webapp/PersonaDao!ups.edu.ec.webapp.datos.PersonaDao
+	java:module/PersonaDao!ups.edu.ec.webapp.datos.PersonaDao
+	java:global/webapp/PersonaDao
+	java:app/webapp/PersonaDao
+	java:module/PersonaDao
+
+2023-06-28 08:58:12,366 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'DatosDemo' in deployment unit 'deployment "webapp.war"' are as follows:
+
+	java:global/webapp/DatosDemo!ups.edu.ec.webapp.negocio.DatosDemo
+	java:app/webapp/DatosDemo!ups.edu.ec.webapp.negocio.DatosDemo
+	java:module/DatosDemo!ups.edu.ec.webapp.negocio.DatosDemo
+	java:global/webapp/DatosDemo
+	java:app/webapp/DatosDemo
+	java:module/DatosDemo
+
+2023-06-28 08:58:12,617 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 80) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-06-28 08:58:12,753 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-6) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-06-28 08:58:12,774 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-6) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-06-28 08:58:12,781 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-6) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=webapp.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=5CG039D8B0, jaeger.version=Java-1.6.0, ip=192.168.56.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-06-28 08:58:13,045 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV6020260: Second level cache enabled for webapp.war#webappPersistenceUnit
+2023-06-28 08:58:13,155 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-06-28 08:58:13,221 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 5.1.0 (Final)
+2023-06-28 08:58:13,371 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = webapp.war_org.postgresql.Driver_42_2
+2023-06-28 08:58:13,644 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'webapp.war#webappPersistenceUnit'
+2023-06-28 08:58:13,697 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 80) HHH000204: Processing PersistenceUnitInfo [name: webappPersistenceUnit]
+2023-06-28 08:58:13,855 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 80) HHH000412: Hibernate ORM core version 6.1.5.Final
+2023-06-28 08:58:14,217 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 80) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-06-28 08:58:14,463 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'webapp.war#webappPersistenceUnit'
+2023-06-28 08:58:14,886 INFO  [SQL dialect] (ServerService Thread Pool -- 80) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-28 08:58:14,974 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 80) Envers integration enabled? : true
+2023-06-28 08:58:17,523 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 80) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2023-06-28 08:58:17,558 INFO  [stdout] (ServerService Thread Pool -- 80) Hibernate: 
+2023-06-28 08:58:17,558 INFO  [stdout] (ServerService Thread Pool -- 80)     
+2023-06-28 08:58:17,558 INFO  [stdout] (ServerService Thread Pool -- 80)     alter table if exists Vehiculo 
+2023-06-28 08:58:17,558 INFO  [stdout] (ServerService Thread Pool -- 80)        drop constraint if exists FKe4vx77qo73p9jceyq23myl8su
+2023-06-28 08:58:17,580 INFO  [stdout] (ServerService Thread Pool -- 80) Hibernate: 
+2023-06-28 08:58:17,580 INFO  [stdout] (ServerService Thread Pool -- 80)     
+2023-06-28 08:58:17,580 INFO  [stdout] (ServerService Thread Pool -- 80)     drop table if exists Persona cascade
+2023-06-28 08:58:17,595 INFO  [stdout] (ServerService Thread Pool -- 80) Hibernate: 
+2023-06-28 08:58:17,595 INFO  [stdout] (ServerService Thread Pool -- 80)     
+2023-06-28 08:58:17,595 INFO  [stdout] (ServerService Thread Pool -- 80)     drop table if exists Vehiculo cascade
+2023-06-28 08:58:17,612 INFO  [stdout] (ServerService Thread Pool -- 80) Hibernate: 
+2023-06-28 08:58:17,613 INFO  [stdout] (ServerService Thread Pool -- 80)     
+2023-06-28 08:58:17,613 INFO  [stdout] (ServerService Thread Pool -- 80)     create table Persona (
+2023-06-28 08:58:17,613 INFO  [stdout] (ServerService Thread Pool -- 80)        cedula varchar(255) not null,
+2023-06-28 08:58:17,613 INFO  [stdout] (ServerService Thread Pool -- 80)         direccion varchar(255),
+2023-06-28 08:58:17,613 INFO  [stdout] (ServerService Thread Pool -- 80)         nombre varchar(255),
+2023-06-28 08:58:17,613 INFO  [stdout] (ServerService Thread Pool -- 80)         primary key (cedula)
+2023-06-28 08:58:17,614 INFO  [stdout] (ServerService Thread Pool -- 80)     )
+2023-06-28 08:58:17,657 INFO  [stdout] (ServerService Thread Pool -- 80) Hibernate: 
+2023-06-28 08:58:17,658 INFO  [stdout] (ServerService Thread Pool -- 80)     
+2023-06-28 08:58:17,658 INFO  [stdout] (ServerService Thread Pool -- 80)     create table Vehiculo (
+2023-06-28 08:58:17,658 INFO  [stdout] (ServerService Thread Pool -- 80)        vehiculoId integer not null,
+2023-06-28 08:58:17,658 INFO  [stdout] (ServerService Thread Pool -- 80)         marca varchar(255),
+2023-06-28 08:58:17,659 INFO  [stdout] (ServerService Thread Pool -- 80)         modelo varchar(255),
+2023-06-28 08:58:17,659 INFO  [stdout] (ServerService Thread Pool -- 80)         placa varchar(255),
+2023-06-28 08:58:17,659 INFO  [stdout] (ServerService Thread Pool -- 80)         tipo varchar(255),
+2023-06-28 08:58:17,659 INFO  [stdout] (ServerService Thread Pool -- 80)         cedula varchar(255),
+2023-06-28 08:58:17,659 INFO  [stdout] (ServerService Thread Pool -- 80)         primary key (vehiculoId)
+2023-06-28 08:58:17,659 INFO  [stdout] (ServerService Thread Pool -- 80)     )
+2023-06-28 08:58:17,675 INFO  [stdout] (ServerService Thread Pool -- 80) Hibernate: 
+2023-06-28 08:58:17,675 INFO  [stdout] (ServerService Thread Pool -- 80)     
+2023-06-28 08:58:17,675 INFO  [stdout] (ServerService Thread Pool -- 80)     alter table if exists Vehiculo 
+2023-06-28 08:58:17,676 INFO  [stdout] (ServerService Thread Pool -- 80)        add constraint FKe4vx77qo73p9jceyq23myl8su 
+2023-06-28 08:58:17,676 INFO  [stdout] (ServerService Thread Pool -- 80)        foreign key (cedula) 
+2023-06-28 08:58:17,676 INFO  [stdout] (ServerService Thread Pool -- 80)        references Persona
+2023-06-28 08:58:18,736 INFO  [stdout] (ServerService Thread Pool -- 80) Hola UPS
+2023-06-28 08:58:18,925 INFO  [stdout] (ServerService Thread Pool -- 80) Persona2
+2023-06-28 08:58:18,929 INFO  [stdout] (ServerService Thread Pool -- 80) Persona3
+2023-06-28 08:58:19,520 INFO  [stdout] (ServerService Thread Pool -- 80) Hibernate: 
+2023-06-28 08:58:19,520 INFO  [stdout] (ServerService Thread Pool -- 80)     insert 
+2023-06-28 08:58:19,521 INFO  [stdout] (ServerService Thread Pool -- 80)     into
+2023-06-28 08:58:19,521 INFO  [stdout] (ServerService Thread Pool -- 80)         Persona
+2023-06-28 08:58:19,522 INFO  [stdout] (ServerService Thread Pool -- 80)         (direccion, nombre, cedula) 
+2023-06-28 08:58:19,522 INFO  [stdout] (ServerService Thread Pool -- 80)     values
+2023-06-28 08:58:19,522 INFO  [stdout] (ServerService Thread Pool -- 80)         (?, ?, ?)
+2023-06-28 08:58:19,562 INFO  [stdout] (ServerService Thread Pool -- 80) Hibernate: 
+2023-06-28 08:58:19,562 INFO  [stdout] (ServerService Thread Pool -- 80)     insert 
+2023-06-28 08:58:19,563 INFO  [stdout] (ServerService Thread Pool -- 80)     into
+2023-06-28 08:58:19,563 INFO  [stdout] (ServerService Thread Pool -- 80)         Persona
+2023-06-28 08:58:19,563 INFO  [stdout] (ServerService Thread Pool -- 80)         (direccion, nombre, cedula) 
+2023-06-28 08:58:19,563 INFO  [stdout] (ServerService Thread Pool -- 80)     values
+2023-06-28 08:58:19,563 INFO  [stdout] (ServerService Thread Pool -- 80)         (?, ?, ?)
+2023-06-28 08:58:19,565 INFO  [stdout] (ServerService Thread Pool -- 80) Hibernate: 
+2023-06-28 08:58:19,566 INFO  [stdout] (ServerService Thread Pool -- 80)     insert 
+2023-06-28 08:58:19,566 INFO  [stdout] (ServerService Thread Pool -- 80)     into
+2023-06-28 08:58:19,566 INFO  [stdout] (ServerService Thread Pool -- 80)         Persona
+2023-06-28 08:58:19,566 INFO  [stdout] (ServerService Thread Pool -- 80)         (direccion, nombre, cedula) 
+2023-06-28 08:58:19,567 INFO  [stdout] (ServerService Thread Pool -- 80)     values
+2023-06-28 08:58:19,567 INFO  [stdout] (ServerService Thread Pool -- 80)         (?, ?, ?)
+2023-06-28 08:58:19,641 INFO  [stdout] (ServerService Thread Pool -- 80) Hibernate: 
+2023-06-28 08:58:19,641 INFO  [stdout] (ServerService Thread Pool -- 80)     select
+2023-06-28 08:58:19,641 INFO  [stdout] (ServerService Thread Pool -- 80)         p1_0.cedula,
+2023-06-28 08:58:19,641 INFO  [stdout] (ServerService Thread Pool -- 80)         p1_0.direccion,
+2023-06-28 08:58:19,642 INFO  [stdout] (ServerService Thread Pool -- 80)         p1_0.nombre 
+2023-06-28 08:58:19,642 INFO  [stdout] (ServerService Thread Pool -- 80)     from
+2023-06-28 08:58:19,642 INFO  [stdout] (ServerService Thread Pool -- 80)         Persona p1_0
+2023-06-28 08:58:19,673 INFO  [stdout] (ServerService Thread Pool -- 80) Hibernate: 
+2023-06-28 08:58:19,673 INFO  [stdout] (ServerService Thread Pool -- 80)     select
+2023-06-28 08:58:19,673 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.vehiculoId,
+2023-06-28 08:58:19,673 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.marca,
+2023-06-28 08:58:19,673 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.modelo,
+2023-06-28 08:58:19,673 INFO  [stdout] (ServerService Thread Pool -- 80)         p1_0.cedula,
+2023-06-28 08:58:19,673 INFO  [stdout] (ServerService Thread Pool -- 80)         p1_0.direccion,
+2023-06-28 08:58:19,674 INFO  [stdout] (ServerService Thread Pool -- 80)         p1_0.nombre,
+2023-06-28 08:58:19,674 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.placa,
+2023-06-28 08:58:19,674 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.tipo 
+2023-06-28 08:58:19,674 INFO  [stdout] (ServerService Thread Pool -- 80)     from
+2023-06-28 08:58:19,674 INFO  [stdout] (ServerService Thread Pool -- 80)         Vehiculo v1_0 
+2023-06-28 08:58:19,675 INFO  [stdout] (ServerService Thread Pool -- 80)     left join
+2023-06-28 08:58:19,675 INFO  [stdout] (ServerService Thread Pool -- 80)         Persona p1_0 
+2023-06-28 08:58:19,677 INFO  [stdout] (ServerService Thread Pool -- 80)             on p1_0.cedula=v1_0.cedula 
+2023-06-28 08:58:19,678 INFO  [stdout] (ServerService Thread Pool -- 80)     where
+2023-06-28 08:58:19,678 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.cedula=?
+2023-06-28 08:58:19,687 INFO  [stdout] (ServerService Thread Pool -- 80) Hibernate: 
+2023-06-28 08:58:19,688 INFO  [stdout] (ServerService Thread Pool -- 80)     select
+2023-06-28 08:58:19,688 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.vehiculoId,
+2023-06-28 08:58:19,688 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.marca,
+2023-06-28 08:58:19,688 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.modelo,
+2023-06-28 08:58:19,688 INFO  [stdout] (ServerService Thread Pool -- 80)         p1_0.cedula,
+2023-06-28 08:58:19,689 INFO  [stdout] (ServerService Thread Pool -- 80)         p1_0.direccion,
+2023-06-28 08:58:19,689 INFO  [stdout] (ServerService Thread Pool -- 80)         p1_0.nombre,
+2023-06-28 08:58:19,689 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.placa,
+2023-06-28 08:58:19,689 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.tipo 
+2023-06-28 08:58:19,689 INFO  [stdout] (ServerService Thread Pool -- 80)     from
+2023-06-28 08:58:19,689 INFO  [stdout] (ServerService Thread Pool -- 80)         Vehiculo v1_0 
+2023-06-28 08:58:19,690 INFO  [stdout] (ServerService Thread Pool -- 80)     left join
+2023-06-28 08:58:19,690 INFO  [stdout] (ServerService Thread Pool -- 80)         Persona p1_0 
+2023-06-28 08:58:19,690 INFO  [stdout] (ServerService Thread Pool -- 80)             on p1_0.cedula=v1_0.cedula 
+2023-06-28 08:58:19,690 INFO  [stdout] (ServerService Thread Pool -- 80)     where
+2023-06-28 08:58:19,691 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.cedula=?
+2023-06-28 08:58:19,696 INFO  [stdout] (ServerService Thread Pool -- 80) Hibernate: 
+2023-06-28 08:58:19,697 INFO  [stdout] (ServerService Thread Pool -- 80)     select
+2023-06-28 08:58:19,698 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.vehiculoId,
+2023-06-28 08:58:19,698 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.marca,
+2023-06-28 08:58:19,698 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.modelo,
+2023-06-28 08:58:19,699 INFO  [stdout] (ServerService Thread Pool -- 80)         p1_0.cedula,
+2023-06-28 08:58:19,699 INFO  [stdout] (ServerService Thread Pool -- 80)         p1_0.direccion,
+2023-06-28 08:58:19,699 INFO  [stdout] (ServerService Thread Pool -- 80)         p1_0.nombre,
+2023-06-28 08:58:19,699 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.placa,
+2023-06-28 08:58:19,699 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.tipo 
+2023-06-28 08:58:19,700 INFO  [stdout] (ServerService Thread Pool -- 80)     from
+2023-06-28 08:58:19,700 INFO  [stdout] (ServerService Thread Pool -- 80)         Vehiculo v1_0 
+2023-06-28 08:58:19,700 INFO  [stdout] (ServerService Thread Pool -- 80)     left join
+2023-06-28 08:58:19,700 INFO  [stdout] (ServerService Thread Pool -- 80)         Persona p1_0 
+2023-06-28 08:58:19,700 INFO  [stdout] (ServerService Thread Pool -- 80)             on p1_0.cedula=v1_0.cedula 
+2023-06-28 08:58:19,700 INFO  [stdout] (ServerService Thread Pool -- 80)     where
+2023-06-28 08:58:19,701 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.cedula=?
+2023-06-28 08:58:19,705 INFO  [stdout] (ServerService Thread Pool -- 80) Cédula: 01
+2023-06-28 08:58:19,706 INFO  [stdout] (ServerService Thread Pool -- 80) Nombre: Joseph
+2023-06-28 08:58:19,706 INFO  [stdout] (ServerService Thread Pool -- 80) Dirección: Rio Cenepa
+2023-06-28 08:58:19,706 INFO  [stdout] (ServerService Thread Pool -- 80) -----------------------------
+2023-06-28 08:58:19,707 INFO  [stdout] (ServerService Thread Pool -- 80) Cédula: 02
+2023-06-28 08:58:19,707 INFO  [stdout] (ServerService Thread Pool -- 80) Nombre: Kaar
+2023-06-28 08:58:19,707 INFO  [stdout] (ServerService Thread Pool -- 80) Dirección: Rio Palora
+2023-06-28 08:58:19,707 INFO  [stdout] (ServerService Thread Pool -- 80) -----------------------------
+2023-06-28 08:58:19,707 INFO  [stdout] (ServerService Thread Pool -- 80) Cédula: 03
+2023-06-28 08:58:19,708 INFO  [stdout] (ServerService Thread Pool -- 80) Nombre: Kaar Joseph
+2023-06-28 08:58:19,708 INFO  [stdout] (ServerService Thread Pool -- 80) Dirección: Hurtado Mendoza
+2023-06-28 08:58:19,708 INFO  [stdout] (ServerService Thread Pool -- 80) -----------------------------
+2023-06-28 08:58:19,709 INFO  [stdout] (ServerService Thread Pool -- 80) *** VEHICULO ***
+2023-06-28 08:58:19,738 INFO  [stdout] (ServerService Thread Pool -- 80) Hibernate: 
+2023-06-28 08:58:19,738 INFO  [stdout] (ServerService Thread Pool -- 80)     insert 
+2023-06-28 08:58:19,738 INFO  [stdout] (ServerService Thread Pool -- 80)     into
+2023-06-28 08:58:19,739 INFO  [stdout] (ServerService Thread Pool -- 80)         Vehiculo
+2023-06-28 08:58:19,739 INFO  [stdout] (ServerService Thread Pool -- 80)         (marca, modelo, cedula, placa, tipo, vehiculoId) 
+2023-06-28 08:58:19,739 INFO  [stdout] (ServerService Thread Pool -- 80)     values
+2023-06-28 08:58:19,739 INFO  [stdout] (ServerService Thread Pool -- 80)         (?, ?, ?, ?, ?, ?)
+2023-06-28 08:58:19,746 INFO  [stdout] (ServerService Thread Pool -- 80) Hibernate: 
+2023-06-28 08:58:19,746 INFO  [stdout] (ServerService Thread Pool -- 80)     select
+2023-06-28 08:58:19,746 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.vehiculoId,
+2023-06-28 08:58:19,747 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.marca,
+2023-06-28 08:58:19,747 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.modelo,
+2023-06-28 08:58:19,747 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.cedula,
+2023-06-28 08:58:19,747 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.placa,
+2023-06-28 08:58:19,747 INFO  [stdout] (ServerService Thread Pool -- 80)         v1_0.tipo 
+2023-06-28 08:58:19,747 INFO  [stdout] (ServerService Thread Pool -- 80)     from
+2023-06-28 08:58:19,747 INFO  [stdout] (ServerService Thread Pool -- 80)         Vehiculo v1_0
+2023-06-28 08:58:19,750 INFO  [stdout] (ServerService Thread Pool -- 80) vehiculoId: 1
+2023-06-28 08:58:19,751 INFO  [stdout] (ServerService Thread Pool -- 80) placa: ABC-123
+2023-06-28 08:58:19,751 INFO  [stdout] (ServerService Thread Pool -- 80) marca: KIA
+2023-06-28 08:58:19,751 INFO  [stdout] (ServerService Thread Pool -- 80) modelo: Rio
+2023-06-28 08:58:19,751 INFO  [stdout] (ServerService Thread Pool -- 80) tipo: Camioneta
+2023-06-28 08:58:19,753 INFO  [stdout] (ServerService Thread Pool -- 80) cedula: ups.edu.ec.webapp.modelo.Persona@52f10bea
+2023-06-28 08:58:19,753 INFO  [stdout] (ServerService Thread Pool -- 80) -----------------------------
+2023-06-28 08:58:20,045 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 80) Inicializando Mojarra 4.0.0.SP01 para el contexto '/webapp'
+2023-06-28 08:58:20,949 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2023-06-28 08:58:21,231 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 46) WFLYSRV0010: Deployed "webapp.war" (runtime-name : "webapp.war")
+2023-06-28 08:58:21,332 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-06-28 08:58:21,336 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) started in 21459ms - Started 479 of 709 services (362 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-06-28 08:58:21,347 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-06-28 08:58:21,347 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990

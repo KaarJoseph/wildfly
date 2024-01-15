@@ -1,0 +1,495 @@
+2023-07-26 00:04:08,569 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 88) WFLYUT0022: Unregistered web context: '/pruebaWeb2' from server 'default-server'
+2023-07-26 00:04:09,305 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 90) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'pruebaWeb2.war#pruebaWeb2PersistenceUnit'
+2023-07-26 00:04:09,613 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 90) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@1e83e6e7
+2023-07-26 00:04:09,727 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 90) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'pruebaWeb2.war#pruebaWeb2PersistenceUnit'
+2023-07-26 00:04:10,192 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment pruebaWeb2.war (runtime-name: pruebaWeb2.war) in 1958ms
+2023-07-26 00:04:11,472 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "pruebaWeb2.war" (runtime-name: "pruebaWeb2.war")
+2023-07-26 00:04:16,497 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found pruebaWeb2.war in deployment directory. To trigger deployment create a file called pruebaWeb2.war.dodeploy
+2023-07-26 00:04:16,558 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "pruebaWeb2.war" (runtime-name: "pruebaWeb2.war")
+2023-07-26 00:04:17,328 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for pruebaWeb2PersistenceUnit
+2023-07-26 00:04:17,528 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for pruebaWeb2.war#pruebaWeb2PersistenceUnit
+2023-07-26 00:04:17,594 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment pruebaWeb2.war
+2023-07-26 00:04:17,724 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 90) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-07-26 00:04:18,013 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 90) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'pruebaWeb2.war#pruebaWeb2PersistenceUnit'
+2023-07-26 00:04:18,015 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'VehiculoDao' in deployment unit 'deployment "pruebaWeb2.war"' are as follows:
+
+	java:global/pruebaWeb2/VehiculoDao!ups.edu.ec.pruebaWeb2.Datos.VehiculoDao
+	java:app/pruebaWeb2/VehiculoDao!ups.edu.ec.pruebaWeb2.Datos.VehiculoDao
+	java:module/VehiculoDao!ups.edu.ec.pruebaWeb2.Datos.VehiculoDao
+	java:global/pruebaWeb2/VehiculoDao
+	java:app/pruebaWeb2/VehiculoDao
+	java:module/VehiculoDao
+
+2023-07-26 00:04:18,016 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'GestionVehiculos' in deployment unit 'deployment "pruebaWeb2.war"' are as follows:
+
+	java:global/pruebaWeb2/GestionVehiculos!ups.edu.ec.pruebaWeb2.Negocio.GestionVehiculos
+	java:app/pruebaWeb2/GestionVehiculos!ups.edu.ec.pruebaWeb2.Negocio.GestionVehiculos
+	java:module/GestionVehiculos!ups.edu.ec.pruebaWeb2.Negocio.GestionVehiculos
+	java:global/pruebaWeb2/GestionVehiculos
+	java:app/pruebaWeb2/GestionVehiculos
+	java:module/GestionVehiculos
+
+2023-07-26 00:04:18,017 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'DatosDemo' in deployment unit 'deployment "pruebaWeb2.war"' are as follows:
+
+	java:global/pruebaWeb2/DatosDemo!ups.edu.ec.pruebaWeb2.Negocio.DatosDemo
+	java:app/pruebaWeb2/DatosDemo!ups.edu.ec.pruebaWeb2.Negocio.DatosDemo
+	java:module/DatosDemo!ups.edu.ec.pruebaWeb2.Negocio.DatosDemo
+	java:global/pruebaWeb2/DatosDemo
+	java:app/pruebaWeb2/DatosDemo
+	java:module/DatosDemo
+
+2023-07-26 00:04:18,019 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 90) HHH000204: Processing PersistenceUnitInfo [name: pruebaWeb2PersistenceUnit]
+2023-07-26 00:04:18,063 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 90) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-07-26 00:04:18,228 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-2) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-07-26 00:04:18,248 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-07-26 00:04:18,249 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-2) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=pruebaWeb2.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=5CG039D8B0, jaeger.version=Java-1.6.0, ip=192.168.56.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-07-26 00:04:18,304 INFO  [org.jipijapa] (MSC service thread 1-2) JIPIORMV6020260: Second level cache enabled for pruebaWeb2.war#pruebaWeb2PersistenceUnit
+2023-07-26 00:04:18,333 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-2) WFLYRS0015: No Servlet declaration found for Jakarta RESTful Web Services application.  In pruebaWeb2.war either provide a class that extends jakarta.ws.rs.core.Application or declare a servlet class in web.xml.
+2023-07-26 00:04:18,446 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 90) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'pruebaWeb2.war#pruebaWeb2PersistenceUnit'
+2023-07-26 00:04:18,492 INFO  [SQL dialect] (ServerService Thread Pool -- 90) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-07-26 00:04:18,509 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 90) Envers integration enabled? : true
+2023-07-26 00:04:18,843 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 90) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2023-07-26 00:04:18,876 INFO  [stdout] (ServerService Thread Pool -- 90) Hibernate: drop table if exists Vehiculo cascade
+2023-07-26 00:04:19,031 INFO  [stdout] (ServerService Thread Pool -- 90) Hibernate: create table Vehiculo (placa varchar(255) not null, color varchar(255), marca varchar(255), modelo varchar(255), primary key (placa))
+2023-07-26 00:04:19,452 INFO  [stdout] (ServerService Thread Pool -- 90) ** VEHICULOS ***
+2023-07-26 00:04:19,542 INFO  [stdout] (ServerService Thread Pool -- 90) Hibernate: insert into Vehiculo (color, marca, modelo, placa) values (?, ?, ?, ?)
+2023-07-26 00:04:19,564 INFO  [stdout] (ServerService Thread Pool -- 90) Hibernate: select v1_0.placa,v1_0.color,v1_0.marca,v1_0.modelo from Vehiculo v1_0
+2023-07-26 00:04:19,570 INFO  [stdout] (ServerService Thread Pool -- 90) placa: ABC-123
+2023-07-26 00:04:19,571 INFO  [stdout] (ServerService Thread Pool -- 90) marca: NOE
+2023-07-26 00:04:19,571 INFO  [stdout] (ServerService Thread Pool -- 90) modelo: NOE
+2023-07-26 00:04:19,571 INFO  [stdout] (ServerService Thread Pool -- 90) color: NOE
+2023-07-26 00:04:19,571 INFO  [stdout] (ServerService Thread Pool -- 90) -----------------------------
+2023-07-26 00:04:19,611 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 90) Inicializando Mojarra 4.0.0.SP01 para el contexto '/pruebaWeb2'
+2023-07-26 00:04:19,798 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0021: Registered web context: '/pruebaWeb2' for server 'default-server'
+2023-07-26 00:04:19,904 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "pruebaWeb2.war" (runtime-name : "pruebaWeb2.war")
+2023-07-26 00:15:26,171 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0022: Unregistered web context: '/pruebaWeb2' from server 'default-server'
+2023-07-26 00:15:26,583 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 94) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'pruebaWeb2.war#pruebaWeb2PersistenceUnit'
+2023-07-26 00:15:26,674 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 94) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@61182914
+2023-07-26 00:15:26,718 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 94) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'pruebaWeb2.war#pruebaWeb2PersistenceUnit'
+2023-07-26 00:15:26,875 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment pruebaWeb2.war (runtime-name: pruebaWeb2.war) in 811ms
+2023-07-26 00:15:27,582 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "pruebaWeb2.war" (runtime-name: "pruebaWeb2.war")
+2023-07-26 00:15:32,610 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found pruebaWeb2.war in deployment directory. To trigger deployment create a file called pruebaWeb2.war.dodeploy
+2023-07-26 00:15:32,662 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "pruebaWeb2.war" (runtime-name: "pruebaWeb2.war")
+2023-07-26 00:15:33,248 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for pruebaWeb2PersistenceUnit
+2023-07-26 00:15:33,411 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV6020260: Second level cache enabled for pruebaWeb2.war#pruebaWeb2PersistenceUnit
+2023-07-26 00:15:33,656 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment pruebaWeb2.war
+2023-07-26 00:15:33,668 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 94) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-07-26 00:15:33,870 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 94) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'pruebaWeb2.war#pruebaWeb2PersistenceUnit'
+2023-07-26 00:15:33,880 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 94) HHH000204: Processing PersistenceUnitInfo [name: pruebaWeb2PersistenceUnit]
+2023-07-26 00:15:33,955 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 94) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-07-26 00:15:33,964 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'VehiculoDao' in deployment unit 'deployment "pruebaWeb2.war"' are as follows:
+
+	java:global/pruebaWeb2/VehiculoDao!ups.edu.ec.pruebaWeb2.Datos.VehiculoDao
+	java:app/pruebaWeb2/VehiculoDao!ups.edu.ec.pruebaWeb2.Datos.VehiculoDao
+	java:module/VehiculoDao!ups.edu.ec.pruebaWeb2.Datos.VehiculoDao
+	java:global/pruebaWeb2/VehiculoDao
+	java:app/pruebaWeb2/VehiculoDao
+	java:module/VehiculoDao
+
+2023-07-26 00:15:33,964 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'GestionVehiculos' in deployment unit 'deployment "pruebaWeb2.war"' are as follows:
+
+	java:global/pruebaWeb2/GestionVehiculos!ups.edu.ec.pruebaWeb2.Negocio.GestionVehiculos
+	java:app/pruebaWeb2/GestionVehiculos!ups.edu.ec.pruebaWeb2.Negocio.GestionVehiculos
+	java:module/GestionVehiculos!ups.edu.ec.pruebaWeb2.Negocio.GestionVehiculos
+	java:global/pruebaWeb2/GestionVehiculos
+	java:app/pruebaWeb2/GestionVehiculos
+	java:module/GestionVehiculos
+
+2023-07-26 00:15:33,965 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'DatosDemo' in deployment unit 'deployment "pruebaWeb2.war"' are as follows:
+
+	java:global/pruebaWeb2/DatosDemo!ups.edu.ec.pruebaWeb2.Negocio.DatosDemo
+	java:app/pruebaWeb2/DatosDemo!ups.edu.ec.pruebaWeb2.Negocio.DatosDemo
+	java:module/DatosDemo!ups.edu.ec.pruebaWeb2.Negocio.DatosDemo
+	java:global/pruebaWeb2/DatosDemo
+	java:app/pruebaWeb2/DatosDemo
+	java:module/DatosDemo
+
+2023-07-26 00:15:34,500 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-2) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-07-26 00:15:34,530 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-07-26 00:15:34,532 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-2) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=pruebaWeb2.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=5CG039D8B0, jaeger.version=Java-1.6.0, ip=192.168.56.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-07-26 00:15:34,650 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV6020260: Second level cache enabled for pruebaWeb2.war#pruebaWeb2PersistenceUnit
+2023-07-26 00:15:34,687 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-4) WFLYRS0015: No Servlet declaration found for Jakarta RESTful Web Services application.  In pruebaWeb2.war either provide a class that extends jakarta.ws.rs.core.Application or declare a servlet class in web.xml.
+2023-07-26 00:15:34,819 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 94) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'pruebaWeb2.war#pruebaWeb2PersistenceUnit'
+2023-07-26 00:15:34,873 INFO  [SQL dialect] (ServerService Thread Pool -- 94) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-07-26 00:15:34,890 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 94) Envers integration enabled? : true
+2023-07-26 00:15:35,233 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 94) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2023-07-26 00:15:35,250 INFO  [stdout] (ServerService Thread Pool -- 94) Hibernate: drop table if exists Vehiculo cascade
+2023-07-26 00:15:35,280 INFO  [stdout] (ServerService Thread Pool -- 94) Hibernate: create table Vehiculo (placa varchar(255) not null, color varchar(255), marca varchar(255), modelo varchar(255), primary key (placa))
+2023-07-26 00:15:35,722 INFO  [stdout] (ServerService Thread Pool -- 94) ** VEHICULOS ***
+2023-07-26 00:15:35,800 INFO  [stdout] (ServerService Thread Pool -- 94) Hibernate: insert into Vehiculo (color, marca, modelo, placa) values (?, ?, ?, ?)
+2023-07-26 00:15:35,824 INFO  [stdout] (ServerService Thread Pool -- 94) Hibernate: select v1_0.placa,v1_0.color,v1_0.marca,v1_0.modelo from Vehiculo v1_0
+2023-07-26 00:15:35,831 INFO  [stdout] (ServerService Thread Pool -- 94) placa: ABC-123
+2023-07-26 00:15:35,831 INFO  [stdout] (ServerService Thread Pool -- 94) marca: NOE
+2023-07-26 00:15:35,831 INFO  [stdout] (ServerService Thread Pool -- 94) modelo: NOE
+2023-07-26 00:15:35,832 INFO  [stdout] (ServerService Thread Pool -- 94) color: NOE
+2023-07-26 00:15:35,832 INFO  [stdout] (ServerService Thread Pool -- 94) -----------------------------
+2023-07-26 00:15:35,879 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 94) Inicializando Mojarra 4.0.0.SP01 para el contexto '/pruebaWeb2'
+2023-07-26 00:15:36,061 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 94) WFLYUT0021: Registered web context: '/pruebaWeb2' for server 'default-server'
+2023-07-26 00:15:36,190 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "pruebaWeb2.war" (runtime-name : "pruebaWeb2.war")
+2023-07-26 00:32:53,243 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 101) WFLYUT0022: Unregistered web context: '/pruebaWeb2' from server 'default-server'
+2023-07-26 00:32:53,851 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 101) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'pruebaWeb2.war#pruebaWeb2PersistenceUnit'
+2023-07-26 00:32:53,923 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 101) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@350f9a79
+2023-07-26 00:32:53,963 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 101) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'pruebaWeb2.war#pruebaWeb2PersistenceUnit'
+2023-07-26 00:32:54,084 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment pruebaWeb2.war (runtime-name: pruebaWeb2.war) in 1101ms
+2023-07-26 00:32:54,557 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "pruebaWeb2.war" (runtime-name: "pruebaWeb2.war")
+2023-07-26 00:32:59,588 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found pruebaWeb2.war in deployment directory. To trigger deployment create a file called pruebaWeb2.war.dodeploy
+2023-07-26 00:32:59,634 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "pruebaWeb2.war" (runtime-name: "pruebaWeb2.war")
+2023-07-26 00:33:00,333 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for pruebaWeb2PersistenceUnit
+2023-07-26 00:33:00,557 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for pruebaWeb2.war#pruebaWeb2PersistenceUnit
+2023-07-26 00:33:00,734 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment pruebaWeb2.war
+2023-07-26 00:33:00,864 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 101) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-07-26 00:33:01,070 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 101) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'pruebaWeb2.war#pruebaWeb2PersistenceUnit'
+2023-07-26 00:33:01,074 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'VehiculoDao' in deployment unit 'deployment "pruebaWeb2.war"' are as follows:
+
+	java:global/pruebaWeb2/VehiculoDao!ups.edu.ec.pruebaWeb2.Datos.VehiculoDao
+	java:app/pruebaWeb2/VehiculoDao!ups.edu.ec.pruebaWeb2.Datos.VehiculoDao
+	java:module/VehiculoDao!ups.edu.ec.pruebaWeb2.Datos.VehiculoDao
+	java:global/pruebaWeb2/VehiculoDao
+	java:app/pruebaWeb2/VehiculoDao
+	java:module/VehiculoDao
+
+2023-07-26 00:33:01,075 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 101) HHH000204: Processing PersistenceUnitInfo [name: pruebaWeb2PersistenceUnit]
+2023-07-26 00:33:01,075 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'GestionVehiculos' in deployment unit 'deployment "pruebaWeb2.war"' are as follows:
+
+	java:global/pruebaWeb2/GestionVehiculos!ups.edu.ec.pruebaWeb2.Negocio.GestionVehiculos
+	java:app/pruebaWeb2/GestionVehiculos!ups.edu.ec.pruebaWeb2.Negocio.GestionVehiculos
+	java:module/GestionVehiculos!ups.edu.ec.pruebaWeb2.Negocio.GestionVehiculos
+	java:global/pruebaWeb2/GestionVehiculos
+	java:app/pruebaWeb2/GestionVehiculos
+	java:module/GestionVehiculos
+
+2023-07-26 00:33:01,076 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'DatosDemo' in deployment unit 'deployment "pruebaWeb2.war"' are as follows:
+
+	java:global/pruebaWeb2/DatosDemo!ups.edu.ec.pruebaWeb2.Negocio.DatosDemo
+	java:app/pruebaWeb2/DatosDemo!ups.edu.ec.pruebaWeb2.Negocio.DatosDemo
+	java:module/DatosDemo!ups.edu.ec.pruebaWeb2.Negocio.DatosDemo
+	java:global/pruebaWeb2/DatosDemo
+	java:app/pruebaWeb2/DatosDemo
+	java:module/DatosDemo
+
+2023-07-26 00:33:01,212 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 101) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-07-26 00:33:01,957 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-5) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-07-26 00:33:01,981 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-07-26 00:33:01,982 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-5) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=pruebaWeb2.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=5CG039D8B0, jaeger.version=Java-1.6.0, ip=192.168.56.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-07-26 00:33:02,072 INFO  [org.jipijapa] (MSC service thread 1-3) JIPIORMV6020260: Second level cache enabled for pruebaWeb2.war#pruebaWeb2PersistenceUnit
+2023-07-26 00:33:02,116 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-3) WFLYRS0015: No Servlet declaration found for Jakarta RESTful Web Services application.  In pruebaWeb2.war either provide a class that extends jakarta.ws.rs.core.Application or declare a servlet class in web.xml.
+2023-07-26 00:33:02,276 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 101) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'pruebaWeb2.war#pruebaWeb2PersistenceUnit'
+2023-07-26 00:33:02,336 INFO  [SQL dialect] (ServerService Thread Pool -- 101) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-07-26 00:33:02,359 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 101) Envers integration enabled? : true
+2023-07-26 00:33:02,975 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 101) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2023-07-26 00:33:02,989 INFO  [stdout] (ServerService Thread Pool -- 101) Hibernate: drop table if exists Vehiculo cascade
+2023-07-26 00:33:03,013 INFO  [stdout] (ServerService Thread Pool -- 101) Hibernate: create table Vehiculo (placa varchar(255) not null, color varchar(255), marca varchar(255), modelo varchar(255), primary key (placa))
+2023-07-26 00:33:03,530 INFO  [stdout] (ServerService Thread Pool -- 103) ** VEHICULOS ***
+2023-07-26 00:33:03,626 INFO  [stdout] (ServerService Thread Pool -- 103) Hibernate: insert into Vehiculo (color, marca, modelo, placa) values (?, ?, ?, ?)
+2023-07-26 00:33:03,646 INFO  [stdout] (ServerService Thread Pool -- 103) Hibernate: select v1_0.placa,v1_0.color,v1_0.marca,v1_0.modelo from Vehiculo v1_0
+2023-07-26 00:33:03,653 INFO  [stdout] (ServerService Thread Pool -- 103) placa: ABC-123
+2023-07-26 00:33:03,653 INFO  [stdout] (ServerService Thread Pool -- 103) marca: NOE
+2023-07-26 00:33:03,654 INFO  [stdout] (ServerService Thread Pool -- 103) modelo: NOE
+2023-07-26 00:33:03,654 INFO  [stdout] (ServerService Thread Pool -- 103) color: NOE
+2023-07-26 00:33:03,654 INFO  [stdout] (ServerService Thread Pool -- 103) -----------------------------
+2023-07-26 00:33:03,698 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 103) Inicializando Mojarra 4.0.0.SP01 para el contexto '/pruebaWeb2'
+2023-07-26 00:33:03,909 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 103) WFLYUT0021: Registered web context: '/pruebaWeb2' for server 'default-server'
+2023-07-26 00:33:04,004 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "pruebaWeb2.war" (runtime-name : "pruebaWeb2.war")
+2023-07-26 00:39:14,373 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-07-26 00:39:16,079 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-07-26 00:39:16,106 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-07-26 00:39:16,383 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) starting
+2023-07-26 00:39:16,386 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\wildfly\wildfly-27.0.1.Final\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre
+	java.io.tmpdir = C:\Users\KAARJO~1\AppData\Local\Temp\
+	java.library.path = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Users/KaarJoseph/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin/server;C:/Users/KaarJoseph/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin;C:\app\KaarJoseph\product\21c\dbhomeXE\bin;C:\app\ORTEL\product\21c\dbhomeXE\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\KaarJoseph\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\6.0\bin;C:\Users\KaarJoseph\AppData\Local\Microsoft\WindowsApps;C:\Users\KaarJoseph\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KaarJoseph\AppData\Roaming\npm;C:\Users\KaarJoseph\Desktop;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.7+7
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Adoptium
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-17.0.7+7
+	java.version = 17.0.7
+	java.version.date = 2023-04-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Eclipse Adoptium
+	java.vm.version = 17.0.7+7
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\wildfly\wildfly-27.0.1.Final
+	jboss.host.name = 5cg039d8b0
+	jboss.modules.dir = C:\wildfly\wildfly-27.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = 5cg039d8b0
+	jboss.qualified.host.name = 5cg039d8b0
+	jboss.server.base.dir = C:\wildfly\wildfly-27.0.1.Final\standalone
+	jboss.server.config.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\log
+	jboss.server.name = 5cg039d8b0
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\wildfly\wildfly-27.0.1.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\logging.properties
+	module.path = C:\wildfly\wildfly-27.0.1.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\wildfly\wildfly-27.0.1.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 24+
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Users\KaarJoseph\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\wildfly\wildfly-27.0.1.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\wildfly\wildfly-27.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = EC
+	user.dir = C:\wildfly\wildfly-27.0.1.Final\bin
+	user.home = C:\Users\KaarJoseph
+	user.language = es
+	user.name = Kaar Joseph
+	user.script = 
+	user.timezone = America/Guayaquil
+	user.variant = 
+2023-07-26 00:39:16,391 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 24+ -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\wildfly\wildfly-27.0.1.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\wildfly\wildfly-27.0.1.Final -Dorg.jboss.logmanager.nocolor=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages 
+2023-07-26 00:39:21,171 INFO  [org.wildfly.security] (ServerService Thread Pool -- 25) ELY00001: WildFly Elytron version 2.0.0.Final
+2023-07-26 00:39:21,963 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 9) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-07-26 00:39:21,964 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 9) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-07-26 00:39:22,791 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 3) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-07-26 00:39:22,902 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found pruebaWeb2.war in deployment directory. To trigger deployment create a file called pruebaWeb2.war.dodeploy
+2023-07-26 00:39:23,033 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-07-26 00:39:23,085 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.8.8.Final
+2023-07-26 00:39:23,114 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.8.8.Final
+2023-07-26 00:39:23,300 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-07-26 00:39:23,318 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2023-07-26 00:39:23,348 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-07-26 00:39:23,354 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-07-26 00:39:23,356 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-07-26 00:39:23,368 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-07-26 00:39:23,372 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-07-26 00:39:23,392 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-07-26 00:39:23,409 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-07-26 00:39:23,418 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-07-26 00:39:23,486 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2023-07-26 00:39:23,538 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2023-07-26 00:39:23,710 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-07-26 00:39:23,785 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2023-07-26 00:39:23,796 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 2.3.0.Final starting
+2023-07-26 00:39:23,815 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "pruebaWeb2.war" (runtime-name: "pruebaWeb2.war")
+2023-07-26 00:39:23,826 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-07-26 00:39:23,874 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-07-26 00:39:23,874 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = postgresql-driver
+2023-07-26 00:39:23,970 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-8) WFLYELY00023: KeyStore file 'C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-07-26 00:39:24,056 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2023-07-26 00:39:24,076 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-07-26 00:39:24,089 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY01084: KeyStore C:\wildfly\wildfly-27.0.1.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-07-26 00:39:24,223 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path 'C:\wildfly\wildfly-27.0.1.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-07-26 00:39:26,065 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2023-07-26 00:39:26,076 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2023-07-26 00:39:26,076 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2023-07-26 00:39:26,167 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-07-26 00:39:26,169 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory C:\wildfly\wildfly-27.0.1.Final\standalone\deployments
+2023-07-26 00:39:26,222 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.26.Final
+2023-07-26 00:39:26,297 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2023-07-26 00:39:26,299 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) Queuing requests.
+2023-07-26 00:39:26,311 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2023-07-26 00:39:26,408 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-07-26 00:39:26,413 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-07-26 00:39:26,891 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-07-26 00:39:27,140 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-4) 
+2023-07-26 00:39:27,147 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/pruebaWeb2]
+2023-07-26 00:39:27,147 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-07-26 00:39:27,147 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ejPostgresDS]
+2023-07-26 00:39:27,148 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/evaWebDS]
+2023-07-26 00:39:27,885 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for pruebaWeb2PersistenceUnit
+2023-07-26 00:39:28,088 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for pruebaWeb2.war#pruebaWeb2PersistenceUnit
+2023-07-26 00:39:28,547 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment pruebaWeb2.war
+2023-07-26 00:39:28,922 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 8.0.0.Final
+2023-07-26 00:39:29,504 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'VehiculoDao' in deployment unit 'deployment "pruebaWeb2.war"' are as follows:
+
+	java:global/pruebaWeb2/VehiculoDao!ups.edu.ec.pruebaWeb2.Datos.VehiculoDao
+	java:app/pruebaWeb2/VehiculoDao!ups.edu.ec.pruebaWeb2.Datos.VehiculoDao
+	java:module/VehiculoDao!ups.edu.ec.pruebaWeb2.Datos.VehiculoDao
+	java:global/pruebaWeb2/VehiculoDao
+	java:app/pruebaWeb2/VehiculoDao
+	java:module/VehiculoDao
+
+2023-07-26 00:39:29,505 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'GestionVehiculos' in deployment unit 'deployment "pruebaWeb2.war"' are as follows:
+
+	java:global/pruebaWeb2/GestionVehiculos!ups.edu.ec.pruebaWeb2.Negocio.GestionVehiculos
+	java:app/pruebaWeb2/GestionVehiculos!ups.edu.ec.pruebaWeb2.Negocio.GestionVehiculos
+	java:module/GestionVehiculos!ups.edu.ec.pruebaWeb2.Negocio.GestionVehiculos
+	java:global/pruebaWeb2/GestionVehiculos
+	java:app/pruebaWeb2/GestionVehiculos
+	java:module/GestionVehiculos
+
+2023-07-26 00:39:29,505 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'DatosDemo' in deployment unit 'deployment "pruebaWeb2.war"' are as follows:
+
+	java:global/pruebaWeb2/DatosDemo!ups.edu.ec.pruebaWeb2.Negocio.DatosDemo
+	java:app/pruebaWeb2/DatosDemo!ups.edu.ec.pruebaWeb2.Negocio.DatosDemo
+	java:module/DatosDemo!ups.edu.ec.pruebaWeb2.Negocio.DatosDemo
+	java:global/pruebaWeb2/DatosDemo
+	java:app/pruebaWeb2/DatosDemo
+	java:module/DatosDemo
+
+2023-07-26 00:39:30,000 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 80) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-07-26 00:39:30,239 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-1) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-07-26 00:39:30,265 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-1) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-07-26 00:39:30,274 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-1) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=pruebaWeb2.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=5CG039D8B0, jaeger.version=Java-1.6.0, ip=192.168.56.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-07-26 00:39:30,530 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for pruebaWeb2.war#pruebaWeb2PersistenceUnit
+2023-07-26 00:39:30,657 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-7) WFLYRS0015: No Servlet declaration found for Jakarta RESTful Web Services application.  In pruebaWeb2.war either provide a class that extends jakarta.ws.rs.core.Application or declare a servlet class in web.xml.
+2023-07-26 00:39:30,743 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 5.1.0 (Final)
+2023-07-26 00:39:31,198 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'pruebaWeb2.war#pruebaWeb2PersistenceUnit'
+2023-07-26 00:39:31,255 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 80) HHH000204: Processing PersistenceUnitInfo [name: pruebaWeb2PersistenceUnit]
+2023-07-26 00:39:31,460 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 80) HHH000412: Hibernate ORM core version 6.1.5.Final
+2023-07-26 00:39:32,394 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 80) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-07-26 00:39:32,673 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'pruebaWeb2.war#pruebaWeb2PersistenceUnit'
+2023-07-26 00:39:33,193 INFO  [SQL dialect] (ServerService Thread Pool -- 80) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-07-26 00:39:33,250 WARN  [org.hibernate.dialect.PostgreSQLPGObjectJdbcType] (ServerService Thread Pool -- 80) PostgreSQL JDBC driver classes are inaccessible and thus, certain DDL types like JSONB, JSON, GEOMETRY can not be used!: java.lang.ClassNotFoundException: org.postgresql.util.PGobject from [Module "org.hibernate" version 6.1.5.Final from local module loader @53d1b9b3 (finder: local module finder @2cae1042 (roots: C:\wildfly\wildfly-27.0.1.Final\modules,C:\wildfly\wildfly-27.0.1.Final\modules\system\layers\base))]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:200)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.hibernate@6.1.5.Final//org.hibernate.internal.util.ReflectHelper.classForName(ReflectHelper.java:163)
+	at org.hibernate@6.1.5.Final//org.hibernate.dialect.PostgreSQLPGObjectJdbcType.<clinit>(PostgreSQLPGObjectJdbcType.java:45)
+	at org.hibernate@6.1.5.Final//org.hibernate.dialect.PostgreSQLDialect.registerColumnTypes(PostgreSQLDialect.java:231)
+	at org.hibernate@6.1.5.Final//org.hibernate.dialect.Dialect.contributeTypes(Dialect.java:1341)
+	at org.hibernate@6.1.5.Final//org.hibernate.dialect.PostgreSQLDialect.contributeTypes(PostgreSQLDialect.java:1229)
+	at org.hibernate@6.1.5.Final//org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:386)
+	at org.hibernate@6.1.5.Final//org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:143)
+	at org.hibernate@6.1.5.Final//org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1350)
+	at org.hibernate@6.1.5.Final//org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1421)
+	at org.hibernate.jipijapa-hibernate6@27.0.1.Final//org.jboss.as.jpa.hibernate.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:45)
+	at org.jboss.as.jpa@27.0.1.Final//org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:171)
+	at org.jboss.as.jpa@27.0.1.Final//org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:129)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:664)
+	at org.jboss.as.jpa@27.0.1.Final//org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:214)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-07-26 00:39:33,281 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 80) Envers integration enabled? : true
+2023-07-26 00:39:39,653 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 80) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2023-07-26 00:39:39,717 INFO  [stdout] (ServerService Thread Pool -- 80) Hibernate: drop table if exists Vehiculo cascade
+2023-07-26 00:39:39,768 INFO  [stdout] (ServerService Thread Pool -- 80) Hibernate: create table Vehiculo (placa varchar(255) not null, color varchar(255), marca varchar(255), modelo varchar(255), primary key (placa))
+2023-07-26 00:39:41,536 INFO  [stdout] (ServerService Thread Pool -- 81) ** VEHICULOS ***
+2023-07-26 00:39:42,756 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: insert into Vehiculo (color, marca, modelo, placa) values (?, ?, ?, ?)
+2023-07-26 00:39:43,034 INFO  [stdout] (ServerService Thread Pool -- 81) Hibernate: select v1_0.placa,v1_0.color,v1_0.marca,v1_0.modelo from Vehiculo v1_0
+2023-07-26 00:39:43,056 INFO  [stdout] (ServerService Thread Pool -- 81) placa: ABC-123
+2023-07-26 00:39:43,057 INFO  [stdout] (ServerService Thread Pool -- 81) marca: NOE
+2023-07-26 00:39:43,057 INFO  [stdout] (ServerService Thread Pool -- 81) modelo: NOE
+2023-07-26 00:39:43,057 INFO  [stdout] (ServerService Thread Pool -- 81) color: NOE
+2023-07-26 00:39:43,057 INFO  [stdout] (ServerService Thread Pool -- 81) -----------------------------
+2023-07-26 00:39:43,662 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 81) Inicializando Mojarra 4.0.0.SP01 para el contexto '/pruebaWeb2'
+2023-07-26 00:39:44,807 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0021: Registered web context: '/pruebaWeb2' for server 'default-server'
+2023-07-26 00:39:45,256 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 46) WFLYSRV0010: Deployed "pruebaWeb2.war" (runtime-name : "pruebaWeb2.war")
+2023-07-26 00:39:45,456 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-07-26 00:39:45,476 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) started in 32078ms - Started 491 of 721 services (364 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-07-26 00:39:45,514 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-07-26 00:39:45,517 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-07-26 00:45:46,965 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 26) WFLYUT0022: Unregistered web context: '/pruebaWeb2' from server 'default-server'
+2023-07-26 00:45:47,910 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'pruebaWeb2.war#pruebaWeb2PersistenceUnit'
+2023-07-26 00:45:48,039 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 88) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@5a2b12ce
+2023-07-26 00:45:48,093 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'pruebaWeb2.war#pruebaWeb2PersistenceUnit'
+2023-07-26 00:45:48,347 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment pruebaWeb2.war (runtime-name: pruebaWeb2.war) in 1619ms
+2023-07-26 00:45:49,059 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "pruebaWeb2.war" (runtime-name: "pruebaWeb2.war")
+2023-07-26 00:45:54,090 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found pruebaWeb2.war in deployment directory. To trigger deployment create a file called pruebaWeb2.war.dodeploy
+2023-07-26 00:45:54,129 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "pruebaWeb2.war" (runtime-name: "pruebaWeb2.war")
+2023-07-26 00:45:54,665 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for pruebaWeb2PersistenceUnit
+2023-07-26 00:45:55,151 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV6020260: Second level cache enabled for pruebaWeb2.war#pruebaWeb2PersistenceUnit
+2023-07-26 00:45:55,258 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment pruebaWeb2.war
+2023-07-26 00:45:55,516 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 88) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-07-26 00:45:55,656 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'VehiculoDao' in deployment unit 'deployment "pruebaWeb2.war"' are as follows:
+
+	java:global/pruebaWeb2/VehiculoDao!ups.edu.ec.pruebaWeb2.Datos.VehiculoDao
+	java:app/pruebaWeb2/VehiculoDao!ups.edu.ec.pruebaWeb2.Datos.VehiculoDao
+	java:module/VehiculoDao!ups.edu.ec.pruebaWeb2.Datos.VehiculoDao
+	java:global/pruebaWeb2/VehiculoDao
+	java:app/pruebaWeb2/VehiculoDao
+	java:module/VehiculoDao
+
+2023-07-26 00:45:55,662 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'GestionVehiculos' in deployment unit 'deployment "pruebaWeb2.war"' are as follows:
+
+	java:global/pruebaWeb2/GestionVehiculos!ups.edu.ec.pruebaWeb2.Negocio.GestionVehiculos
+	java:app/pruebaWeb2/GestionVehiculos!ups.edu.ec.pruebaWeb2.Negocio.GestionVehiculos
+	java:module/GestionVehiculos!ups.edu.ec.pruebaWeb2.Negocio.GestionVehiculos
+	java:global/pruebaWeb2/GestionVehiculos
+	java:app/pruebaWeb2/GestionVehiculos
+	java:module/GestionVehiculos
+
+2023-07-26 00:45:55,662 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'DatosDemo' in deployment unit 'deployment "pruebaWeb2.war"' are as follows:
+
+	java:global/pruebaWeb2/DatosDemo!ups.edu.ec.pruebaWeb2.Negocio.DatosDemo
+	java:app/pruebaWeb2/DatosDemo!ups.edu.ec.pruebaWeb2.Negocio.DatosDemo
+	java:module/DatosDemo!ups.edu.ec.pruebaWeb2.Negocio.DatosDemo
+	java:global/pruebaWeb2/DatosDemo
+	java:app/pruebaWeb2/DatosDemo
+	java:module/DatosDemo
+
+2023-07-26 00:45:55,797 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'pruebaWeb2.war#pruebaWeb2PersistenceUnit'
+2023-07-26 00:45:55,805 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 88) HHH000204: Processing PersistenceUnitInfo [name: pruebaWeb2PersistenceUnit]
+2023-07-26 00:45:55,903 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 88) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-07-26 00:45:56,123 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-1) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-07-26 00:45:56,146 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-1) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-07-26 00:45:56,149 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-1) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=pruebaWeb2.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=5CG039D8B0, jaeger.version=Java-1.6.0, ip=192.168.56.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-07-26 00:45:56,265 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV6020260: Second level cache enabled for pruebaWeb2.war#pruebaWeb2PersistenceUnit
+2023-07-26 00:45:56,720 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'pruebaWeb2.war#pruebaWeb2PersistenceUnit'
+2023-07-26 00:45:56,789 INFO  [SQL dialect] (ServerService Thread Pool -- 88) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-07-26 00:45:56,813 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 88) Envers integration enabled? : true
+2023-07-26 00:45:57,346 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 88) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2023-07-26 00:45:57,356 INFO  [stdout] (ServerService Thread Pool -- 88) Hibernate: drop table if exists Vehiculo cascade
+2023-07-26 00:45:57,399 INFO  [stdout] (ServerService Thread Pool -- 88) Hibernate: create table Vehiculo (placa varchar(255) not null, color varchar(255), marca varchar(255), modelo varchar(255), primary key (placa))
+2023-07-26 00:45:58,246 INFO  [stdout] (ServerService Thread Pool -- 26) ** VEHICULOS ***
+2023-07-26 00:45:58,431 INFO  [stdout] (ServerService Thread Pool -- 26) Hibernate: insert into Vehiculo (color, marca, modelo, placa) values (?, ?, ?, ?)
+2023-07-26 00:45:58,449 INFO  [stdout] (ServerService Thread Pool -- 26) Hibernate: select v1_0.placa,v1_0.color,v1_0.marca,v1_0.modelo from Vehiculo v1_0
+2023-07-26 00:45:58,456 INFO  [stdout] (ServerService Thread Pool -- 26) placa: ABC-123
+2023-07-26 00:45:58,459 INFO  [stdout] (ServerService Thread Pool -- 26) marca: NOE
+2023-07-26 00:45:58,462 INFO  [stdout] (ServerService Thread Pool -- 26) modelo: NOE
+2023-07-26 00:45:58,463 INFO  [stdout] (ServerService Thread Pool -- 26) color: NOE
+2023-07-26 00:45:58,463 INFO  [stdout] (ServerService Thread Pool -- 26) -----------------------------
+2023-07-26 00:45:58,529 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 26) Inicializando Mojarra 4.0.0.SP01 para el contexto '/pruebaWeb2'
+2023-07-26 00:46:01,545 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 26) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class ups.edu.ec.pruebaWeb2.Services.PathBase
+2023-07-26 00:46:02,913 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 26) WFLYUT0021: Registered web context: '/pruebaWeb2' for server 'default-server'
+2023-07-26 00:46:03,082 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "pruebaWeb2.war" (runtime-name : "pruebaWeb2.war")
+2023-07-26 00:46:20,575 INFO  [stdout] (default task-1) Hibernate: select v1_0.placa,v1_0.color,v1_0.marca,v1_0.modelo from Vehiculo v1_0
+2023-07-26 00:46:29,375 INFO  [stdout] (default task-1) Hibernate: select v1_0.placa,v1_0.color,v1_0.marca,v1_0.modelo from Vehiculo v1_0
+2023-07-26 00:46:35,195 INFO  [stdout] (default task-1) Hibernate: select v1_0.placa,v1_0.color,v1_0.marca,v1_0.modelo from Vehiculo v1_0
+2023-07-26 00:47:34,392 INFO  [stdout] (default task-1) Hibernate: select v1_0.placa,v1_0.color,v1_0.marca,v1_0.modelo from Vehiculo v1_0 where v1_0.placa=?
+2023-07-26 00:47:34,424 INFO  [stdout] (default task-1) Hibernate: insert into Vehiculo (color, marca, modelo, placa) values (?, ?, ?, ?)
+2023-07-26 00:47:39,755 INFO  [stdout] (default task-1) Hibernate: select v1_0.placa,v1_0.color,v1_0.marca,v1_0.modelo from Vehiculo v1_0
+2023-07-26 00:48:06,923 INFO  [stdout] (default task-1) Hibernate: select v1_0.placa,v1_0.color,v1_0.marca,v1_0.modelo from Vehiculo v1_0 where v1_0.placa=?
+2023-07-26 00:48:06,944 INFO  [stdout] (default task-1) Hibernate: update Vehiculo set color=?, marca=?, modelo=? where placa=?
+2023-07-26 00:48:11,700 INFO  [stdout] (default task-1) Hibernate: select v1_0.placa,v1_0.color,v1_0.marca,v1_0.modelo from Vehiculo v1_0
+2023-07-26 00:49:50,764 INFO  [stdout] (default task-1) Hibernate: select v1_0.placa,v1_0.color,v1_0.marca,v1_0.modelo from Vehiculo v1_0 where v1_0.placa=?
+2023-07-26 00:49:50,776 INFO  [stdout] (default task-1) Hibernate: delete from Vehiculo where placa=?
+2023-07-26 00:49:54,612 INFO  [stdout] (default task-1) Hibernate: select v1_0.placa,v1_0.color,v1_0.marca,v1_0.modelo from Vehiculo v1_0
