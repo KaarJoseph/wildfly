@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Build-Jdk-Spec: 17
-Specification-Title: Quickstart: helloworld
-Specification-Version: 20.0
-Implementation-Title: Quickstart: helloworld
-Implementation-Version: 20.0.1.Final
-Created-By: Maven Integration for Eclipse
-
