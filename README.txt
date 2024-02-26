@@ -1,7 +1,7 @@
 Welcome to WildFly (formerly known as JBoss Application Server)
-http://www.wildfly.org/
+http://www.wildfly.org/ 
 
-Go to the above link for documentation, and additional downloads.
+Go to the above link for documentation, and additional downloads. 
 
 Also, once WildFly is started you can go to http://localhost:8080/
 for additional information.
